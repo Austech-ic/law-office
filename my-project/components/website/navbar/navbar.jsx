@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className=" lg:flex hidden ">
         {/* Always render menu items for desktop screens */}
         <div className=''>
-        <ul className={`text-white text-xs md:text-lg lg:text-sm xl:text-base flex flex-col lg:flex-row gap-2`}>
+        <ul className={`text-white text-xs md:text-lg lg:text-sm xl:text-base flex flex-col lg:flex-row lg:gap-4 xl:gap-8`}>
         <Link href={`/`} className='hover:text-orange'>
        <li className="">Home</li>
        </Link>
