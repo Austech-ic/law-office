@@ -1,0 +1,16 @@
+.main{
+    background-image: url(../../../public//img/or.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+height: 100vh;
+}
+
+
+
+
+@media (min-width:768px) {
+    .main{
+        height: 100vh;
+    }
+}
