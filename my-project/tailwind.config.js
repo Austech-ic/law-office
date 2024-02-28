@@ -14,6 +14,7 @@ module.exports = {
       },
       colors: {
         orange:'#FF7F00',
+        gray:'#F6F6F6'
       },
       fontSize: {
         tiny:'0.5rem'

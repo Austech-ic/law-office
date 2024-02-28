@@ -4,7 +4,7 @@ import Lady from '../../../public/img/lady.jpg'
 
 const Index = () => {
   return (
-    <div className='flex flex-col lg:flex-row p-10 md:p-20 lg:p-20 xl:p-32 gap-8 md:gap-16 lg:gap-8 xl:gap-16'>
+    <div className='bg-gray flex flex-col lg:flex-row p-10 md:p-20 lg:p-20 xl:p-32 gap-8 md:gap-16 lg:gap-8 xl:gap-16'>
       <div className='flex-1 flex flex-col gap-2 md:gap-5 lg:gap-4 xl:gap-6'>
         <div className='flex items-center gap-2 md:gap-4'>
           <div className='border border-orange border-l border-solid w-[5%]'></div>
