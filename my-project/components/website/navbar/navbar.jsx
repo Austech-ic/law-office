@@ -21,17 +21,17 @@ const Navbar = () => {
         <Link href={`/`} className='hover:text-orange'>
        <li className="">Home</li>
        </Link>
-       <Link href={`/`} className='hover:text-orange'>
+       <Link href={`/attorneyprofile`} className='hover:text-orange'>
        <li>Attorney Profile</li>
        </Link>
           
-       <Link href={`/`} className='hover:text-orange'>
+       <Link href={`/praticearea`} className='hover:text-orange'>
          <div className='flex items-center gap-1'> 
           <li>Practice Areas</li>
           <IoIosArrowDown className='text-orange' />
           </div>
          </Link>
-         <Link href={`/`} className='hover:text-orange'>
+         <Link href={`/contact`} className='hover:text-orange'>
          <div className='flex items-center gap-1'> 
          <li>Contact Us</li>
          <IoIosArrowDown className='text-orange' />
@@ -69,16 +69,16 @@ const Navbar = () => {
        <Link href={`/`} className='hover:text-black'>
        <li className="py-1">Home</li>
        </Link>
-       <Link href={`/`} className='hover:text-black'>
+       <Link href={`/attorneyprofile`} className='hover:text-black'>
        <li className="py-1">Attorney Profile</li>
        </Link>
-       <Link href={`/`} className='hover:text-black'>
+       <Link href={`/praticearea`} className='hover:text-black'>
        <div className='flex items-center gap-1 py-1'> 
           <li>Practice Areas</li>
           <IoIosArrowDown className='text-orange' />
           </div>
        </Link>
-       <Link href={`/`} className='hover:text-black'>
+       <Link href={`/contact`} className='hover:text-black'>
        <div className='flex items-center gap-1 py-1'> 
          <li>Contact Us</li>
          <IoIosArrowDown className='text-orange' />

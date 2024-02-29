@@ -7,6 +7,7 @@ import Image from "next/image";
 import SectionFive from "@/components/website/SectionFive/sectionfive";
 import Test from "@/components/website/Testimony/test";
 import Contact from "@/components/website/contact/contact";
+import Footer from "@/components/website/footer/footer";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
     <Test />
     <SectionFive />
     <Contact />
+    <Footer />
    </div>
   );
 }
