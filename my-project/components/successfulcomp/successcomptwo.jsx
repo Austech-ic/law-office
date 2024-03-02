@@ -1,0 +1,82 @@
+import React from 'react'
+import wom from '../../public/img/wom.jpeg'
+import Consult from '../website/consult'
+import Image from 'next/image'
+import Link from 'next/link'
+
+const Successcomptwo = () => {
+    const details = [
+        {
+            id:1,
+            pic:wom,
+            date:"18-08-2020",
+            label:"Korem ipsum dolor sit amet",
+            desc:"There are  of Lorem Ipsum available, but majority have su alteration in some form, by injected oir  which don't look even slightly believable.",
+
+        },
+        {
+            id:2,
+            pic:wom,
+            date:"18-08-2020",
+            label:"Korem ipsum dolor sit amet",
+            desc:"There are  of Lorem Ipsum available, but majority have su alteration in some form, by injected oir  which don't look even slightly believable.",
+            
+        },
+        {
+            id:3,
+            pic:wom,
+            date:"18-08-2020",
+            label:"Korem ipsum dolor sit amet",
+            desc:"There are  of Lorem Ipsum available, but majority have su alteration in some form, by injected oir  which don't look even slightly believable.",
+            
+        },
+        {
+            id:4,
+            pic:wom,
+            date:"18-08-2020",
+            label:"Korem ipsum dolor sit amet",
+            desc:"There are  of Lorem Ipsum available, but majority have su alteration in some form, by injected oir  which don't look even slightly believable.",
+            
+        },
+        {
+            id:5,
+            pic:wom,
+            date:"18-08-2020",
+            label:"Korem ipsum dolor sit amet",
+            desc:"There are  of Lorem Ipsum available, but majority have su alteration in some form, by injected oir  which don't look even slightly believable.",
+            
+        },
+        {
+            id:6,
+            pic:wom,
+            date:"18-08-2020",
+            label:"Korem ipsum dolor sit amet",
+            desc:"There are  of Lorem Ipsum available, but majority have su alteration in some form, by injected oir  which don't look even slightly believable.",
+            
+        }
+    ]
+  return (
+    <div className=''>
+        <div className='p-6 md:p-12 lg:px-28 lg:py-10 xl:px-40 bg-gray grid lg:grid-cols-2 gap-8 md:gap-10'>
+         {
+            details.map((datum) => (
+                <div className='flex flex-col gap-2 bg-white shadow-2xl p-10'>
+                    <Image src={datum.pic} alt='pic-img' />
+                    <p>{datum.date}</p>
+                    <p>{datum.label}</p>
+                    <p>{datum.desc}</p>
+                    <Link href={`/`}>
+                    <p className='text-orange'>Read More</p>
+                    </Link>
+
+
+                </div>
+            ))
+         }
+        </div>
+        <Consult />
+        </div>
+  )
+}
+
+export default Successcomptwo

@@ -11,7 +11,7 @@ import { FaFacebookF, FaGooglePlusG } from 'react-icons/fa'
 const sectone = () => {
   return (
     <div className='p-6 md:p-12 lg:px-28 lg:py-10 xl:px-40'>
-        <div className='text-white fflex flex-col lg:flex-row items-center justify-center py-5 md:py-10 gap-1 md:gap-2 '>
+        <div className='text-white flex flex-col lg:flex-row items-center justify-center lg:justify-start py-5 md:py-10 gap-1 md:gap-2 '>
         <Link href={`/`} >
                     <p>Home</p>
                 </Link>

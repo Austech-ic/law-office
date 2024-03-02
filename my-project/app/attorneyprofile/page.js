@@ -11,7 +11,7 @@ const Page = () => {
     <div>
       <div className='bg-green '>
       <Header />
-      <Navbar />
+      {/* <Navbar /> */}
       <Sectone />
     </div>
     <Sectwo />

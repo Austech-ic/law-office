@@ -13,7 +13,7 @@ const Page = () => {
    <div>
      <div className={styles.main}>
       <Header />
-      <Navbar />
+      {/* <Navbar /> */}
       <Ownersectone />
     </div>
    <Ownersectwo />

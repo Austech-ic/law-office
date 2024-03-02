@@ -14,7 +14,7 @@ const Page = () => {
    <div>
      <div className={styles.main}>
       <Header />
-      <Navbar />
+      {/* <Navbar /> */}
     </div>
   <Errorcomp />
     <Footer />

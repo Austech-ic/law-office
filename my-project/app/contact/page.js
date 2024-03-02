@@ -12,7 +12,7 @@ const Page = () => {
     <div>
       <div className={styles.main}>
       <Header />
-      <Navbar />
+      {/* <Navbar /> */}
       <Contact />
     </div>
     <Contsecone />
