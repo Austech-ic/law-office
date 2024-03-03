@@ -69,12 +69,14 @@ const Successcomptwo = () => {
         <div className='p-6 md:p-12 lg:px-28 lg:py-10 xl:px-40 bg-gray grid lg:grid-cols-2 gap-8 md:gap-10'>
          {
             details.map((datum) => (
-                <div key={datum.id} className='flex flex-col gap-2 bg-white shadow-2xl p-10'>
+                <div key={datum.id} className='flex flex-col gap-2 bg-white shadow-2xl '>
                     <Image src={datum.pic} alt='pic-img' />
-                    <p>{datum.date}</p>
-                    <p>{datum.label}</p>
-                    <p>{datum.desc}</p>
-                    <button onClick={() => handleReadMoreClick(datum.id)} className='text-orange text-start'>Read More</button>
+                  <div className='p-5'>
+                  <p className='text-xs md:text-xl lg:text-sm xl:text-base'>{datum.date}</p>
+                    <p className='text-sm md:text-2xl lg:text-base xl:text-lg text-orange'>{datum.label}</p>
+                    <p className='text-xs md:text-xl lg:text-sm xl:text-base' >{datum.desc}</p>
+                    <button onClick={() => handleReadMoreClick(datum.id)} className='text-orange text-start text-xs md:text-xl lg:text-sm xl:text-base underline'>Read More</button>
+                    </div>
                   
 
                 </div>
