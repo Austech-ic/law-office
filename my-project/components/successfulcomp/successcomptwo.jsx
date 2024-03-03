@@ -1,10 +1,14 @@
+"use client"
 import React from 'react'
 import wom from '../../public/img/wom.jpeg'
 import Consult from '../website/consult'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'; 
+
 
 const Successcomptwo = () => {
+    const router = useRouter(); // No need to useState for router
     const details = [
         {
             id:1,
@@ -55,20 +59,23 @@ const Successcomptwo = () => {
             
         }
     ]
+    const handleReadMoreClick = (id) => {
+        // Use router.push to navigate to the individual case page
+        router.push(`/singlecase/${id}`);
+    };
+
   return (
     <div className=''>
         <div className='p-6 md:p-12 lg:px-28 lg:py-10 xl:px-40 bg-gray grid lg:grid-cols-2 gap-8 md:gap-10'>
          {
             details.map((datum) => (
-                <div className='flex flex-col gap-2 bg-white shadow-2xl p-10'>
+                <div key={datum.id} className='flex flex-col gap-2 bg-white shadow-2xl p-10'>
                     <Image src={datum.pic} alt='pic-img' />
                     <p>{datum.date}</p>
                     <p>{datum.label}</p>
                     <p>{datum.desc}</p>
-                    <Link href={`/`}>
-                    <p className='text-orange'>Read More</p>
-                    </Link>
-
+                    <button onClick={() => handleReadMoreClick(datum.id)} className='text-orange text-start'>Read More</button>
+                  
 
                 </div>
             ))
