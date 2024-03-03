@@ -9,7 +9,7 @@ const Contsecone = () => {
        <div className='flex flex-col lg:flex-row gap-6'>
        <div className='flex-1'>
         <p className='text-orange text-lg md:text-3xl lg:text-xl xl:text-2xl '>Say Hello to Udo Uchenna Ekekeulu</p>
-        <p className='text-xs md:text-xl lg:text-base font-light'>There are  of Lorem Ipsum available, but the majority have su alteration in some form, by injected oir  which don't look even slightly believable.</p>
+        <p className='text-xs md:text-xl lg:text-base font-light'>There are  of Lorem Ipsum available, but the majority have su alteration in some form, by injected oir  which dont look even slightly believable.</p>
        </div>
        <div className='border border-r border-slate-400 hidden lg:block'></div>
        <div className='flex-1'>

@@ -31,7 +31,7 @@ const Index = () => {
         <div className='grid lg:grid-cols-2 gap-8'>
            {
             details.map((datum) => (
-                <div className='border border-gray flex flex-col items-center p-5 md:p-10 lg:p-5 gap-4 md:gap-6 shadow-md'>
+                <div key={datum.id} className='border border-gray flex flex-col items-center p-5 md:p-10 lg:p-5 gap-4 md:gap-6 shadow-md'>
                     <Image src={datum.pic} alt='pic-img' className='w-[30%] md:w-[15%] lg:w-[25%] xl:w-[20%]' />
                     <p className='text-center lg:text-start text-sm md:text-2xl lg:text-lg xl:text-xl font-semibold'>{datum.label}</p>
                     <p className='text-center lg:text-start font-light text-xs md:text-xl lg:text-base xl:text-lg'>{datum.text}</p>

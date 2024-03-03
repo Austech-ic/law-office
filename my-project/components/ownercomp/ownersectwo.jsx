@@ -31,7 +31,7 @@ const Ownersectwo = () => {
             </div>
             <div className='flex flex-col gap-2'>
                 <p className='text-orange text-sm md:text-2xl lg:text-lg xl:text-2xl'>Responsive lawyer assists with evictions</p>
-                <p className='text-xs md:text-xl lg:text-sm xl:text-base'>If your tenants are violating the terms of the lease by damaging your property or failing to make rent payments, eviction offers a legal remedy. But it's important to realize that this process is not only disruptive to the tenant but will require the investment on your part of both time and money and may mean your rental is unoccupied longer than you like. With this scenario in mind, we can help mediate disputes when eviction is undesirable. In any case, if your tenants are engaged in disruptive, illegal or damaging behavior, we will help you to protect your property and your investment.</p>
+                <p className='text-xs md:text-xl lg:text-sm xl:text-base'>If your tenants are violating the terms of the lease by damaging your property or failing to make rent payments, eviction offers a legal remedy. But its important to realize that this process is not only disruptive to the tenant but will require the investment on your part of both time and money and may mean your rental is unoccupied longer than you like. With this scenario in mind, we can help mediate disputes when eviction is undesirable. In any case, if your tenants are engaged in disruptive, illegal or damaging behavior, we will help you to protect your property and your investment.</p>
             </div>
            
         </div>
