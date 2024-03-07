@@ -11,7 +11,7 @@ const page = () => {
    <div>
      <div className={styles.main}>
       <Header />
-      <Navbar />
+      {/* <Navbar /> */}
       <Pratsectionone />
     </div>
     <Pratsectiontwo />

@@ -13,13 +13,13 @@ const sectone = () => {
     <div className='p-6 md:p-12 lg:px-28 lg:py-10 xl:px-40'>
         <div className='text-white flex flex-col lg:flex-row items-center justify-center lg:justify-start py-5 md:py-10 gap-1 md:gap-2 '>
         <Link href={`/`} >
-                    <p>Home</p>
+                    <p className='text-sm md:text-2xl lg:text-lg xl:text-xl font-light '>Home</p>
                 </Link>
                
                 <IoIosArrowForward />
                 
                 <Link href={`/attorney`} >
-                    <p>Attorney Profile</p>
+                    <p className='text-sm md:text-2xl lg:text-lg xl:text-xl font-light '>Attorney Profile</p>
                 </Link>
         </div>
         <div className='text-white flex flex-col lg:flex-row gap-8 md:gap-16 lg:gap-8 xl:gap-16 mt-10 md:mt-20'>

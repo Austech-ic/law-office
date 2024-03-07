@@ -7,7 +7,7 @@ const Ownersectwo = () => {
        <div className=' bg-gray '>
          <div className='flex flex-col gap-4 p-6 md:p-12 lg:px-28 lg:py-10 xl:px-40 '>
             <div className='py-2 md:py-4'>
-                <p className='text-base md:text-2xl lg;text-2xl'>Effective California Law Firm Represents Property Owners in Landlord-Tenant Disputes</p>
+                <p className='text-base md:text-2xl lg;text-2xl font-semibold'>Effective California Law Firm Represents Property Owners in Landlord-Tenant Disputes</p>
             </div>
             <div className='flex flex-col gap-2'>
                 <p className='text-orange text-sm md:text-2xl lg:text-lg xl:text-2xl'>Skilled lawyer resolves legal issues for owners of rental properties in the Cerritos area</p>

@@ -1,22 +1,25 @@
 "use client"
-import React from 'react';
-import { useRouter } from 'next/navigation'; // Import useRouter from 'next/navigation'
+
+import React from 'react'
+import { useParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import PageSuccess from '@/components/successfulcomp/[category]/page';
 
 const Singlecase = () => {
-  const router = useRouter(); // Use useRouter to access query parameters
-  const { singlecaseid } = router.query || {}; // Access the query parameters using router.query
+  const {singlecaseid} = useParams();
+
+  
 
   if (!singlecaseid) {
     // Handle loading or error state
-    return <div>Loading...</div>; // You can render a loading state here
+    return null;
+ 
   }
-
-  console.log(singlecaseid);
+  console.log(singlecaseid)
   return (
     <div>
-        <p>Single Case ID: {singlecaseid}</p> {/* Just for testing */}
-      {/* <PageSuccess id={singlecaseid} /> */}
+
+      <PageSuccess id={singlecaseid} />
     </div>
   );
 };

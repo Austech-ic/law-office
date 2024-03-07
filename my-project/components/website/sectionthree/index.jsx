@@ -26,7 +26,7 @@ const Index = () => {
   return (
     <div className='p-10 md:p-20 lg:p-20 xl:p-32'>
         <div className='p-5 md:p-10'>
-        <p className='text-xl md:text-5xl lg:text-4xl xl:text-5xl  text-center'>Our <span className='text-orange'>Services</span></p>
+        <p className='text-2xl md:text-5xl lg:text-4xl xl:text-5xl  text-center'>Our <span className='text-orange'>Services</span></p>
         </div>
         <div className='grid lg:grid-cols-2 gap-8'>
            {

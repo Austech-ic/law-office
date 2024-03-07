@@ -13,7 +13,8 @@ const Page = () => {
       <div className={styles.main}>
       <Header />
       {/* <Navbar /> */}
-      <Contact />
+     <Contact />
+    
     </div>
     <Contsecone />
     <Footer />

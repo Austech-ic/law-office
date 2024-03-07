@@ -59,10 +59,15 @@ const Successcomptwo = () => {
             
         }
     ]
-    const handleReadMoreClick = (id) => {
-        // Use router.push to navigate to the individual case page
-        router.push(`/singlecase/${id}`);
-    };
+    // const handleReadMoreClick = (id) => {
+    //     // Use router.push to navigate to the individual case page
+    //     router.push(`/singlecase/${id}`);
+    // };
+    // console.log('Products state:', products);
+    if (!details) {
+      return <div>Loading...</div>; // Add a loading state while fetching data
+    }
+  
 
   return (
     <div className=''>
@@ -75,7 +80,9 @@ const Successcomptwo = () => {
                   <p className='text-xs md:text-xl lg:text-sm xl:text-base'>{datum.date}</p>
                     <p className='text-sm md:text-2xl lg:text-base xl:text-lg text-orange'>{datum.label}</p>
                     <p className='text-xs md:text-xl lg:text-sm xl:text-base' >{datum.desc}</p>
-                    <button onClick={() => handleReadMoreClick(datum.id)} className='text-orange text-start text-xs md:text-xl lg:text-sm xl:text-base underline'>Read More</button>
+                    <Link key={details.id} href={`/singlecase/${datum.id}`}>
+                    <button  className='text-orange text-start text-xs md:text-xl lg:text-sm xl:text-base underline'>Read More</button>
+                    </Link>
                     </div>
                   
 

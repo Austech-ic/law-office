@@ -66,20 +66,20 @@ const Header = () => {
         <div className={styles.mobilelistcont }>
           <ul className={styles.mobilelist}>
           <Link href={`/`} className='hover:text-black'>
-                <li className="py-1 text-center  text-xs md:text-lg lg:text-sm xl:text-base">Home</li>
+                <li className="pt-1 text-center  text-xs md:text-lg lg:text-sm xl:text-base">Home</li>
               </Link>
             <Link href={`/attorneyprofile`} className='hover:text-black'>
-                <li className="py-1 text-center  text-xs md:text-lg lg:text-sm xl:text-base">Attorney Profile</li>
+                <li className="pt-1 text-center  text-xs md:text-lg lg:text-sm xl:text-base">Attorney Profile</li>
               </Link>
              
-              <div className='flex flex-col gap-1' onClick={handlePraticeDropdownToggle}>
+              {/* <div className='flex flex-col gap-1' onClick={handlePraticeDropdownToggle}>
                 <div className='flex items-center justify-center gap-1 hover:text-orange'>
-                  <li className=' text-xs md:text-lg lg:text-sm xl:text-base'>Pratice Areas</li>
+                  <li className='pt-1  text-xs md:text-lg lg:text-sm xl:text-base'>Pratice Areas</li>
                   <IoIosArrowDown className='text-orange' />
                 </div>
                 {isPraticeDropdownOpen && (
-                  <div className="flex flex-col gap-1 text-sm text-green-600">
-                    <ul className='text-xs md:text-lg lg:text-sm xl:text-base '>
+                  <div className=" text-sm text-green-600">
+                    <ul className='text-xs md:text-lg lg:text-sm xl:text-base flex flex-col py-[0.3px] gap-1 text-slate-400'>
                       <Link href={`/renter`} className='hover:text-orange'>
                         <div className='flex items-center  justify-center gap-1 hover:text-orange'>
                           <li className='hover:text-orange'>Law for Renters</li>
@@ -93,22 +93,25 @@ const Header = () => {
                     </ul>
                   </div>
                 )}
-              </div>
+              </div> */}
+               <Link href={`/praticearea`} className='hover:text-black'>
+                <li className="pt-1 text-center  text-xs md:text-lg lg:text-sm xl:text-base">Pratice Areas</li>
+              </Link>
 
               <Link href={`/contact`} className='hover:text-black'>
-                <div className='flex items-center justify-center gap-1 py-1'>
-                  <li className='text-center  text-xs md:text-lg lg:text-sm xl:text-base'>Contact Us</li>
-                  <IoIosArrowDown className='text-orange' />
+                <div className='flex items-center justify-center gap-1'>
+                  <li className='pt-1  text-center  text-xs md:text-lg lg:text-sm xl:text-base'>Contact Us</li>
+                  {/* <IoIosArrowDown className='text-orange' /> */}
                 </div>
               </Link>
               <div className='flex flex-col gap-1' onClick={handleDropdownToggle}>
                 <div className='flex items-center justify-center gap-1 hover:text-orange'>
-                  <li className=' text-xs md:text-lg lg:text-sm xl:text-base'>Page</li>
+                  <li className='pt-1  text-xs md:text-lg lg:text-sm xl:text-base'>Page</li>
                   <IoIosArrowDown className='text-orange' />
                 </div>
                 {isDropdownOpen && (
-                  <div className="flex flex-col gap-1 text-sm text-green-600">
-                    <ul className=' text-xs md:text-lg lg:text-sm xl:text-base '>
+                  <div className=" text-sm text-green-600">
+                    <ul className=' text-xs md:text-lg lg:text-sm xl:text-base flex flex-col py-[0.3px] gap-1 text-slate-400 '>
                       <Link href={`/testimonialpage`} className='hover:text-orange'>
                         <div className='flex items-center justify-center gap-1 hover:text-orange'>
                           <li>Testimonial</li>
@@ -125,8 +128,8 @@ const Header = () => {
                 )}
               </div>
               <Link href={`/contact`} className='hover:text-black'>
-                <div className="block lg:hidden py-1">
-                  <button className='bg-orange text-white text-xs md:text-lg lg:text-sm xl:text-base p-2'>Free Consultation</button>
+                <div className="flex justify-center items-center  lg:hidden pt-1 ">
+                  <button className=' bg-orange text-white text-xs md:text-lg lg:text-sm xl:text-base p-2'>Free Consultation</button>
                 </div>
               </Link>
            
@@ -147,8 +150,11 @@ const Header = () => {
                 <Link href={`/attorneyprofile`} className='hover:text-orange'>
                   <li>Attorney Profile</li>
                 </Link>
+                <Link href={`/praticearea`} className='hover:text-orange'>
+                  <li>Pratice Areas</li>
+                </Link>
 
-                <div className='flex flex-col gap-2' onClick={handlePraticeDropdownToggle}>
+                {/* <div className='flex flex-col gap-2' onClick={handlePraticeDropdownToggle}>
                   <div className='flex items-center gap-1 hover:text-orange'>
                     <li>Pratice Areas</li>
                     <IoIosArrowDown className='text-orange' />
@@ -169,11 +175,12 @@ const Header = () => {
                     </div>
                   )}
                  </div>
-                </div>
+                </div> */}
+
                 <Link href={`/contact`} className='hover:text-orange'>
                   <div className='flex items-center gap-1'>
                     <li>Contact Us</li>
-                    <IoIosArrowDown className='text-orange' />
+                    {/* <IoIosArrowDown className='text-orange' /> */}
                   </div>
                 </Link>
 

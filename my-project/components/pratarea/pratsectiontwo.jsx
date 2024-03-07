@@ -27,8 +27,8 @@ const Pratsectiontwo = () => {
   return (
     <div className='p-6 md:p-12 lg:px-28 lg:py-10 xl:px-40'>
     <div>
-    <p className='text-xl md:text-5xl lg:text-4xl xl:text-5xl  text-center'>Explore Our <span className='text-orange'>Practice</span> Area</p>
-     <p className='py-5 font-light text-center text-xs md:text-xl lg:text-lg xl:text-lg'>As an experienced real estate litigator, the attorney with Alpha Advocate Law Group PC represents property owners in the Cerritos area and throughout California in landlord-tenant matters. We are....</p>
+    <p className='text-2xl md:text-5xl lg:text-4xl xl:text-5xl  text-center'>Explore Our <span className='text-orange'>Practice</span> Area</p>
+     <p className='py-5 font-light text-center text-xs md:text-xl lg:text-lg xl:text-lg'>Welcome to our Explore Our Practice Area page, where the intricate tapestry of our legal expertise unfolds. Each section is meticulously crafted to guide you through the nuances of your legal concerns. Whether you're a property owner seeking sound advice or a tenant navigating rights, we are here to offer clarity, support, and a steadfast commitment to justice. </p>
     </div>
     <div className='grid lg:grid-cols-2 gap-8 py-10 md:py-20'>
            {
