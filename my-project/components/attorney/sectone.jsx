@@ -11,16 +11,23 @@ import { FaFacebookF, FaGooglePlusG } from 'react-icons/fa'
 const sectone = () => {
   return (
     <div className='p-6 md:p-12 lg:px-28 lg:py-10 xl:px-40'>
-        <div className='text-white flex flex-col lg:flex-row items-center justify-center lg:justify-start py-5 md:py-10 gap-1 md:gap-2 '>
+        <div className='text-white flex flex-col lg:flex-row items-center justify-center py-5 md:py-10 gap-2 md:gap-2 '>
+        <div  className='flex items-center '>
         <Link href={`/`} >
-                    <p className='text-sm md:text-2xl lg:text-lg xl:text-xl font-light '>Home</p>
-                </Link>
-               
-                <IoIosArrowForward />
-                
-                <Link href={`/attorney`} >
-                    <p className='text-sm md:text-2xl lg:text-lg xl:text-xl font-light '>Attorney Profile</p>
-                </Link>
+            <p className='text-sm md:text-2xl lg:text-lg xl:text-xl font-light '>Home</p>
+        </Link>
+
+        <IoIosArrowForward className='font-light ' />
+        </div>
+
+       <div  className='flex items-center '>
+       <Link href={`/attorneyprofile`} >
+            <p className='text-sm md:text-2xl lg:text-lg xl:text-xl font-light '>Attorney Profile</p>
+        </Link>
+
+        <IoIosArrowForward className='font-light ' />
+       </div>
+
         </div>
         <div className='text-white flex flex-col lg:flex-row gap-8 md:gap-16 lg:gap-8 xl:gap-16 mt-10 md:mt-20'>
       <div className='flex-1 flex flex-col gap-2 md:gap-5 lg:gap-2 xl:gap-2'>

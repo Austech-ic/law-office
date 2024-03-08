@@ -115,7 +115,7 @@ const Testimonialsectwo = () => {
 
                             </div>
 
-                            <p className='text-xs md:text-lg lg:text-base xl:text-lg font-light text-center '>
+                            <p className='text-xs md:text-lg lg:text-base xl:text-lg font-light text-left'>
                                 {shortenText(datum.desc)}
                                 {datum.desc.length > 100 && (
                                     <span className="text-orange text-xs md:text-lg lg:text-base xl:text-lg  cursor-pointer" onClick={toggleExpand}>

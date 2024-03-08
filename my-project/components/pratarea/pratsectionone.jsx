@@ -10,17 +10,24 @@ const pratsectionone = () => {
             <div className='text-white flex items-center justify-center pt-16 md:pt-28 lg:pt-24 xl:pt-40'>
                 <p className='text-2xl md:text-5xl lg:text-4xl xl:text-5xl font-bold'>Pratice Areas</p>
             </div>
-            <div className='text-white flex flex-col lg:flex-row items-center justify-center py-5 md:py-10 gap-1 md:gap-2 '>
-                <Link href={`/`} >
-                    <p className='text-sm md:text-2xl lg:text-lg xl:text-xl font-light'>Home</p>
-                </Link>
+            <div className='text-white flex flex-col lg:flex-row items-center justify-center py-5 md:py-10 gap-2 md:gap-2 '>
+        <div  className='flex items-center '>
+        <Link href={`/`} >
+            <p className='text-sm md:text-2xl lg:text-lg xl:text-xl font-light '>Home</p>
+        </Link>
 
-                <IoIosArrowForward className='font-light ' />
+        <IoIosArrowForward className='font-light ' />
+        </div>
 
-                <Link href={`/praticearea`} >
-                    <p className='text-sm md:text-2xl lg:text-lg xl:text-xl font-light '>Pratice Areas</p>
-                </Link>
-            </div>
+       <div  className='flex items-center '>
+       <Link href={`/praticearea`} >
+            <p className='text-sm md:text-2xl lg:text-lg xl:text-xl font-light '>Pratice Areas</p>
+        </Link>
+
+        <IoIosArrowForward className='font-light ' />
+       </div>
+       
+        </div>
         </div>
     )
 }
