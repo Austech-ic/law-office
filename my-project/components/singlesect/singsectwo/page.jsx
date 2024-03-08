@@ -87,7 +87,7 @@ const page = () => {
       {/* <p>hello</p> */}
         <p className='text-base md:text-3xl lg:text-lg xl:text-xl font-medium '>Say Hello to Udo Uchenna Ekekeulu</p>
        <div className='text-left'>
-       <p className='text-xs md:text-xl lg:text-xs xl:text-xs font-light text-left'>Connect with us!! Drop a Line, Say Hello, and Let's Navigate Your Legal Journey Together. </p>
+       <p className='text-xs md:text-xl lg:text-xs xl:text-xs font-light text-left'>Connect with us!! Drop a Line, Say Hello, and Let Navigate Your Legal Journey Together. </p>
 
        </div>
       <div className='py-2 w-full'>
