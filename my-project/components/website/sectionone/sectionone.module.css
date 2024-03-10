@@ -1,23 +1,32 @@
-.main{
+.main {
+    position: relative;
+    height: 70vh;
+    color: #FFFFFF; /* Set text color to white */
+}
+
+.main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-image: url(../../../public//img/bag.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-height: 70vh;
+    filter: brightness(50%); /* Darkens the background image to 50% */
+    z-index: -1; /* Ensure the pseudo-element is behind the content */
 }
 
-
-
-
 @media (min-width:768px) {
-    .main{
+    .main {
         height: 70vh;
     }
 }
 
-
 @media (min-width:1024px) {
-    .main{
+    .main {
         height: 100vh;
     }
 }
