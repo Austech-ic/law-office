@@ -136,6 +136,7 @@ const Header = () => {
                 <Link href={`/praticearea`} className='hover:text-orange'>
                   <li>Pratice Areas</li>
                 </Link>
+ 
 
                 {/* <div className='flex flex-col gap-2' onClick={handlePraticeDropdownToggle}>
                   <div className='flex items-center gap-1 hover:text-orange'>
