@@ -89,7 +89,7 @@ const Header = () => {
               </Link>
               <div className='flex flex-col gap-1' onClick={handleDropdownToggle}>
                 <div className='flex items-center justify-center gap-1 hover:text-orange'>
-                  <li className='py-1  text-xs md:text-xl lg:text-sm xl:text-base'>Page</li>
+                  <li className='py-1  text-xs md:text-xl lg:text-sm xl:text-base cursor-pointer'>Page</li>
                   <IoIosArrowDown className='text-orange' />
                 </div>
                 {isDropdownOpen && (

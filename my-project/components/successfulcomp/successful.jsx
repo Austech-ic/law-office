@@ -17,13 +17,13 @@ const Successful = () => {
         <IoIosArrowForward className='font-light ' />
         </div>
 
-       <div  className='flex items-center '>
+       {/* <div  className='flex items-center '>
        <Link href={`/`} >
             <p className='text-sm md:text-2xl lg:text-lg xl:text-xl font-light '>Pages</p>
         </Link>
 
         <IoIosArrowForward className='font-light ' />
-       </div>
+       </div> */}
        <Link href={`/owner`} >
             <p className='text-sm md:text-2xl lg:text-lg xl:text-xl font-light '>Recent Successful Case Result</p>
         </Link>
