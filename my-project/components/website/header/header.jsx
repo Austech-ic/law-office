@@ -29,7 +29,7 @@ const Header = () => {
     setShowMenuContent(!showMenuContent);
   };
   return (
-    <div className=' flex flex-row items-center justify-between lg:items-start lg:justify-center lg:gap-10 p-5 md:p-10 '>
+    <div className=' flex flex-row items-center justify-between  lg:justify-center lg:gap-10 p-5 md:p-10 '>
       <div className='  lg:flex-[0.7] flex items-center justify-between'>
      <div className=''>
      <Image src={Logo} alt='logo-img' className=' w-[100%] ' />
