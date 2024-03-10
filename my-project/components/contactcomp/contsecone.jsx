@@ -49,8 +49,8 @@ const Contsecone = () => {
         </form>
        </div>
       <div className='flex flex-col lg:flex-row gap-6'>
-      <div className='flex flex-col lg:flex-row flex-1 justify-start bg-green gap-4 lg:gap-8 xl:gap-10 p-5' >
-       <div className='flex items-center gap-2  '>
+      <div className='flex flex-col lg:flex-row flex-1 bg-green gap-4 lg:gap-8 xl:gap-10 p-5' >
+       <div className='flex items-center gap-2'>
         <IoCallOutline  className='text-orange w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] '/>
         <div className='text-white'>
           <p className='text-orange text-xs md:text-xl lg:text-xs xl:text-sm'>Call Us On:</p>
@@ -67,7 +67,7 @@ const Contsecone = () => {
        
         
        </div>
-       <div className='flex items-center gap-4 bg-green flex-[0.5] p-5'>
+       <div className='flex items-center gap-4 bg-green flex-1 p-5'>
        <div>
         <MdLocationPin className='text-orange w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] ' />
        </div>
