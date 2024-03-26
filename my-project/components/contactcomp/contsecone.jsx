@@ -20,28 +20,32 @@ const Contsecone = () => {
        </div>
        </div>
        <div className='bg-white '>
-        <form className='p-5 md:p-16 lg:p-20  flex flex-col  gap-4'>
+        <form  autocomplete='nope'
+        className='p-5 md:p-16 lg:p-20  flex flex-col  gap-4'>
         <div className='flex flex-col gap-1 md:gap-2 lg:gap-1'>
             <label className='text-xs md:text-xl lg:text-base font-light text-slate-500'>Name<span className='text-orange'> *</span></label>
             <input
             placeholder='Enter Name'
-            className='border border-neutral-400 md:p-3 text-xs md:text-base lg:text-sm bg-gray p-1 lg:p-2' />
+            autocomplete='nope'
+            className=' border border-neutral-400 md:p-3 text-xs md:text-base lg:text-sm bg-gray p-1 lg:p-2 outline-none focus-visible:bg-slate-200 focus-visible:text-white focus-visible:border-none' />
         </div>
         <div className='flex flex-col gap-1 md:gap-2 lg:gap-1'>
             <label className='text-xs md:text-xl lg:text-base font-light text-slate-500'>Email<span className='text-orange'> *</span></label>
             <input
             placeholder='Email'
-            className='border border-neutral-400 md:p-3 text-xs md:text-base lg:text-sm bg-gray p-1 lg:p-2' />
+            autocomplete='nope'
+            className='border border-neutral-400 md:p-3 text-xs md:text-base lg:text-sm bg-gray p-1 lg:p-2 outline-none focus-visible:bg-slate-200 focus-visible:text-white focus-visible:border-none' />
         </div>
         <div className='flex flex-col gap-1 md:gap-2 lg:gap-1'>
             <label className='text-xs md:text-xl lg:text-base font-light text-slate-500'>Phone Number<span className='text-orange'> *</span></label>
             <input
             placeholder='Phone Number'
-            className='border border-neutral-400 md:p-3 text-xs md:text-base lg:text-sm bg-gray p-1 lg:p-2' />
+            autocomplete='nope'
+            className='border border-neutral-400 md:p-3 text-xs md:text-base lg:text-sm bg-gray p-1 lg:p-2 outline-none focus-visible:bg-slate-200 focus-visible:text-white focus-visible:border-none' />
         </div>
         <div className='flex flex-col gap-1 md:gap-2 lg:gap-1'>
             <label className='text-xs md:text-xl lg:text-base font-light text-slate-500'>Please briefly describe the service needed<span className='text-orange'> *</span></label>
-            <textarea className='border border-neutral-400 p-1 md:p-2 text-xs md:text-base lg:text-sm bg-gray' rows="4" cols="50" />
+            <textarea className='border border-neutral-400 p-1 md:p-2 text-xs md:text-base lg:text-sm bg-gray outline-none focus-visible:bg-slate-200 focus-visible:text-white focus-visible:border-none' rows="4" cols="50" />
         </div>
         <div className='flex items-center justify-center gap-1 md:gap-2 lg:gap-1'>
             <button className='w-full lg:w-[50%] px-8 py-2 md:py-4 bg-orange text-white text-xs md:text-xl lg:text-sm'>Get An Appointment</button>
