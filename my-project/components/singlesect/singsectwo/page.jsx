@@ -6,7 +6,7 @@ import styles from './singsectwo.module.css'
 
 const page = () => {
   return (
-    <div className='px-6 py-14 md:p-20 lg:px-28 lg:py-10 xl:px-40 bg-gray '>
+    <div className='px-6 py-10 md:p-20 lg:px-28 lg:py-20 xl:px-40 bg-gray '>
         <div>
             <Image src={wom} alt='img-pic' className='w-full'  />
         </div>

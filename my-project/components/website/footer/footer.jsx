@@ -30,14 +30,23 @@ const Footer = () => {
                         <p className='text-sm md:text-2xl lg:text-lg xl:text-xl '>Alpha Advocate Law Group PC</p>
                     </div>
                     <div>
-                        <p className='text-xs md:text-xl lg:text-sm font-light'>Alpha Advocate Law Group PC is located in Cerritos, CA and serves clients in and around Cerritos, Artesia, Hawaiian Gardens, Norwalk, Bellflower, Santa Fe Springs, Paramount, Pico Rivera, South Gate, Lynwood, Long Beach, Hacienda Heights, Bell, Whittier and Compton.Attorney Advertising. This website is designed for general information only. The information presented at this site should not be construed to be formal legal advice nor the formation of a lawyer/client relationship.See our profiles at <span className='text-orange'>Lawyers.com</span> and <span className='text-orange'>Martindale.com.</span></p>
+                        <p className='text-xs md:text-xl lg:text-sm font-light'>Alpha Advocate Law Group PC is located in Cerritos, CA and serves clients in and around Cerritos, Artesia, Hawaiian Gardens, Norwalk, Bellflower, Santa Fe Springs, Paramount, Pico Rivera, South Gate, Lynwood, Long Beach, Hacienda Heights, Bell, Whittier and Compton.</p>
+
+                        <p className='text-xs md:text-xl lg:text-sm font-light pt-5'>Attorney Advertising. This website is designed for general information only. The information presented at this site should not be construed to be formal legal advice nor the formation of a lawyer/client relationship. </p>
+
+                        <p className='text-xs md:text-xl lg:text-sm font-light pt-5'>See our profiles at <span className='text-orange underline'>Lawyers.com</span> and <span className='text-orange underline'>Martindale.com.</span></p>
                     </div>
                 </div>
                 <div className='flex-1 grid lg:grid-cols-3 gap-4 md:gap-8 lg:gap-1 '>
                     <div className=' flex-1 flex flex-col gap-2 md:gap-3 lg:gap-2'>
                         <p className='text-base md:text-2xl lg:text-base xl:text-lg font-bold'>Links</p>
+                        <Link href={`/`}>
                         <p className='text-xs md:text-xl lg:text-sm  font-light'>Lawyers.com </p>
+                        </Link>
+                        <Link href={`/`}>
                         <p className='text-xs md:text-xl lg:text-sm  font-light'>Martindale.com</p>
+                        </Link>
+                        
                     </div>
 
                     <div className=' flex-1 flex flex-col gap-2 md:gap-3 lg:gap-2'>
@@ -57,7 +66,7 @@ const Footer = () => {
                     <div className='flex-1  flex flex-col gap-2 md:gap-3 lg:gap-2'>
                         <p className='text-xs md:text-xl lg:text-sm xl:text-base font-bold'>Practice Areas</p>
                         <div>
-                            <p className='text-xs md:text-xl lg:text-sm font-light'>Landlord-Tenant Law For Property Owners.</p>
+                            <p className='text-xs md:text-xl lg:text-sm font-light'>Landlord-Tenant Law For Owners.</p>
                         </div>
                         <div>
                             <p className='text-xs md:text-xl lg:text-sm  font-light'>Landlord-Tenant Law For Renters.</p>

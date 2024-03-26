@@ -80,7 +80,7 @@ const toggleProgram = () => {
             <div  className={styles.subcont}>
                 <div className={styles.cont} >
                    
-                    <p className={styles.label}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p className={styles.label}>What are my rights as a landlord in California?</p>
                    
                     <IoIosArrowDown
                     onClick={toggleDropdown}
@@ -90,21 +90,21 @@ const toggleProgram = () => {
                 </div>
                 {isDropdownVisible && (
         <p className={styles.text}>
-         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt iste nostrum dolorum perferendis quia sequi reprehenderit a eos harum ipsam..
+        As a landlord in California, you have specific rights outlined in state law. These include the right to collect rent, evict tenants for valid reasons, and maintain a habitable living space. Our legal team can provide guidance on understanding and asserting your rights.
         </p>
       )}
             </div>
 
             <div className={styles.subcont}>
                 <div className={styles.cont} >
-                <p className={styles.label}>2Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <p className={styles.label}>Can landlords raise rent at any time in California?</p>
                 <IoIosArrowDown
                 onClick={toggleInfoDropVisible}
                 className={`${styles.icon} ${isDropInfoVisible ? styles.icon_active  : ''}`}/>
                 </div>
                 {isDropInfoVisible && (
        <p className={styles.text}>
-       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt iste nostrum dolorum perferendis quia sequi reprehenderit a eos harum ipsam..
+       As a landlord in California, you have specific rights outlined in state law. These include the right to collect rent, evict tenants for valid reasons, and maintain a habitable living space. Our legal team can provide guidance on understanding and asserting your rights.
       </p>
       )}
                 
@@ -112,14 +112,14 @@ const toggleProgram = () => {
 
             <div className={styles.subcont}>
                 <div className={styles.cont} >
-                <p className={styles.label}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p className={styles.label}>Are there specific laws regarding security deposits in California?</p>
                 <IoIosArrowDown
                 onClick={toggleTheraphyVisible}
                 className={`${styles.icon} ${isDropTheraphyVisible ? styles.icon_active  : ''}`}/>
                 </div>
                 {isDropTheraphyVisible && (
        <p className={styles.text}>
-       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt iste nostrum dolorum perferendis quia sequi reprehenderit a eos harum ipsam..
+       As a landlord in California, you have specific rights outlined in state law. These include the right to collect rent, evict tenants for valid reasons, and maintain a habitable living space. Our legal team can provide guidance on understanding and asserting your rights.
       </p>
       )}
                 
@@ -128,28 +128,28 @@ const toggleProgram = () => {
 
              <div className={styles.subcont}>
                 <div className={styles.cont} >
-                <p className={styles.label}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p className={styles.label}>What protections do California tenants have?</p>
                 <IoIosArrowDown
                 onClick={toggleResultVisible}
                 className={`${styles.icon} ${isDropResult ? styles.icon_active  : ''}`}/>
                 </div>
                 {isDropResult && (
        <p className={styles.text}>
-       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt iste nostrum dolorum perferendis quia sequi reprehenderit a eos harum ipsam..
+       As a landlord in California, you have specific rights outlined in state law. These include the right to collect rent, evict tenants for valid reasons, and maintain a habitable living space. Our legal team can provide guidance on understanding and asserting your rights.
       </p>
       )}
                 
             </div>
             <div className={styles.subcont}>
                 <div className={styles.cont} >
-                <p className={styles.label}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p className={styles.label}>How can I legally evict a tenant in California?</p>
                 <IoIosArrowDown
                 onClick={toggleBook}
                 className={`${styles.icon} ${isDropBook ? styles.icon_active  : ''}`}/>
                 </div>
                 {isDropBook && (
        <p className={styles.text}>
-       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt iste nostrum dolorum perferendis quia sequi reprehenderit a eos harum ipsam..
+       As a landlord in California, you have specific rights outlined in state law. These include the right to collect rent, evict tenants for valid reasons, and maintain a habitable living space. Our legal team can provide guidance on understanding and asserting your rights.
       </p>
       )}
                 
@@ -157,14 +157,14 @@ const toggleProgram = () => {
 
             <div className={styles.subcont}>
                 <div className={styles.cont} >
-                <p className={styles.label}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p className={styles.label}>How can I protect my property from slumlord litigation in California?</p>
                 <IoIosArrowDown
                 onClick={toggleWorkshop}
                 className={`${styles.icon} ${isDropWorkshop ? styles.icon_active  : ''}`}/>
                 </div>
                 {isDropWorkshop && (
        <p className={styles.text}>
-       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt iste nostrum dolorum perferendis quia sequi reprehenderit a eos harum ipsam..
+       As a landlord in California, you have specific rights outlined in state law. These include the right to collect rent, evict tenants for valid reasons, and maintain a habitable living space. Our legal team can provide guidance on understanding and asserting your rights.
       </p>
       )}
                 
