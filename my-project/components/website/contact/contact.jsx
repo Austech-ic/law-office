@@ -54,14 +54,14 @@ const Contact = () => {
         <IoCallOutline  className='text-orange w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] '/>
         <div>
           <p className='text-orange text-xs md:text-sm lg:text-xs xl:text-sm'>Call Us On:</p>
-          <p className='text-xs md:text-xl lg:text-sm xl:text-sm '>562-667-0510</p>
+          <p className='text-xs md:text-xl lg:text-sm xl:text-sm '>562-456-3016</p>
         </div>
         </div>
         <div className='flex items-center gap-2 flex-1'>
         <MdOutlineMailOutline  className='text-orange w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] '/>
         <div>
           <p className='text-orange text-xs md:text-xl lg:text-sm xl:text-sm'>Email Us On:</p>
-          <p className='text-xs md:text-xl lg:text-sm xl:text-sm'>alpha@gmail.com</p>
+          <p className='text-xs md:text-xl lg:text-sm xl:text-sm'>alphaadvocatelaw@gmail.com</p>
         </div>
         </div>
       </div>

@@ -114,7 +114,7 @@ const Navbar = () => {
                       </Link>
                       <Link href={`/successfulcase`} className='hover:text-orange'>
                         <div className='flex items-center gap-1 hover:text-orange'>
-                          <p>Successfu Page Result</p>
+                          <p>Successful Page Result</p>
                         </div>
                       </Link>
                     </div>
