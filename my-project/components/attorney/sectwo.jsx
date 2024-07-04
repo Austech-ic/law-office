@@ -17,14 +17,14 @@ const Sectwo = () => {
         <div>
           <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-semibold'> Personal Injury</p>
           <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-light'>
-            If you or a loved one has been injured due to someone else's negligence, our personal injury attorneys are here to fight for the compensation you deserve. We handle cases involving car accidents, slip and falls, medical malpractice, and more. Our goal is to alleviate the financial burden and emotional stress associated with your injuries, ensuring you receive fair and just compensation
+            If you or a loved one has been injured due to someone else negligence, our personal injury attorneys are here to fight for the compensation you deserve. We handle cases involving car accidents, slip and falls, medical malpractice, and more. Our goal is to alleviate the financial burden and emotional stress associated with your injuries, ensuring you receive fair and just compensation
           </p>
         </div>
 
         <div>
           <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-semibold'> Landlord/Tenant Law</p>
           <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-light'>
-            Navigating the intricate web of landlord-tenant laws can be daunting. Our skilled attorneys are well-versed in this area of law and can provide valuable guidance and representation for both landlords and tenants. Whether you're facing eviction, need assistance with lease agreements, or have disputes over security deposits, we're here to protect your rights and ensure a fair resolution.
+            Navigating the intricate web of landlord-tenant laws can be daunting. Our skilled attorneys are well-versed in this area of law and can provide valuable guidance and representation for both landlords and tenants. Whether you are facing eviction, need assistance with lease agreements, or have disputes over security deposits, we are here to protect your rights and ensure a fair resolution.
           </p>
         </div>
 
@@ -56,7 +56,7 @@ const Sectwo = () => {
         </div>
 
         <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-light'>
-          At Alpha Advocate Law Group PC, we pride ourselves on our commitment to excellence, integrity, and personalized attention to each client's unique needs. Our attorneys are dedicated to providing compassionate and effective legal representation, ensuring your rights are protected and your best interests are always at the forefront.Contact us today to schedule a consultation and learn how we can assist you with your legal matter.
+          At Alpha Advocate Law Group PC, we pride ourselves on our commitment to excellence, integrity, and personalized attention to each clients unique needs. Our attorneys are dedicated to providing compassionate and effective legal representation, ensuring your rights are protected and your best interests are always at the forefront.Contact us today to schedule a consultation and learn how we can assist you with your legal matter.
 
         </p>
 
