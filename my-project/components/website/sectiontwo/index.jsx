@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import Lady from '../../../public/img/lady.jpg'
+import Lady from '../../../public/img/ud.jpeg'
+import Link from 'next/link'
 
 const Index = () => {
   return (
@@ -14,9 +15,11 @@ const Index = () => {
         <p className='text-xl md:text-5xl lg:text-3xl xl:text-4xl leading-tight md:leading-tight lg:leading-tight xl:leading-tight '>Law Office Of <br className='hidden md:block' /> Alpha Advocate Law Group PC</p>
         <p className='text-sm md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-light'>At Alpha Advocate Law Group PC, we are a team of dedicated and experienced attorneys committed to providing exceptional legal representation to our clients. With a comprehensive understanding of the law and a passion for justice, we strive to protect the rights and interests of individuals and businesses across a wide range of practice areas.
 </p>
-        <div className="">
+       <Link href='/contact'>
+       <div className="">
         <button className='bg-orange text-white text-xs md:text-xl lg:text-base xl:text-lg px-[15px] py-[10px] md:px-8 md:py-4'>Get In Touch</button>
       </div>
+       </Link>
       </div>
       <div className='flex-1'>
        <Image src={Lady} alt='lady-img' />

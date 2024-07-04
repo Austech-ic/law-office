@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image';
 import { RxSlash } from 'react-icons/rx'
 import { IoIosArrowBack, IoIosArrowDown, IoIosArrowDropright, IoIosArrowForward } from "react-icons/io";
-import Lady from '../../public/img/lady.jpg'
+import Lady from '../../public/img/ud.jpeg'
 import { BsInstagram, BsPinterest, BsTwitter } from 'react-icons/bs'
 import { FaFacebookF, FaGooglePlusG } from 'react-icons/fa'
 
@@ -36,8 +36,9 @@ const sectone = () => {
         <p className='text-orange text-sm md:text-2xl lg:text-base xl:text-lg'>Welcome to</p>
         </div>
         
-        <p className='text-xl md:text-5xl lg:text-3xl xl:text-4xl leading-tight md:leading-tight lg:leading-tight xl:leading-tight '>Law Office Of <br className='hidden md:block' /> Udo Ekekeulu.</p>
-        <p className='text-sm md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-light'>Forem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        <p className='text-xl md:text-5xl lg:text-3xl xl:text-4xl leading-tight md:leading-tight lg:leading-tight xl:leading-tight '>Law Office Of <br className='hidden md:block' /> Alpha Advocate Law Group PC</p>
+        <p className='text-sm md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-light'>At Alpha Advocate Law Group PC, we are a team of dedicated and experienced attorneys committed to providing exceptional legal representation to our clients. With a comprehensive understanding of the law and a passion for justice, we strive to protect the rights and interests of individuals and businesses across a wide range of practice areas.
+</p>
         <div className='flex items-center gap-2 md:gap-4 py-2 '>
                             <BsInstagram className='w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px]' />
                             <FaFacebookF className='w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px]' />
