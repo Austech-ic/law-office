@@ -87,7 +87,13 @@ const Header = () => {
                   {/* <IoIosArrowDown className='text-orange' /> */}
                 </div>
               </Link>
-              <div className='flex flex-col gap-1' onClick={handleDropdownToggle}>
+              <Link href={`/testimonialpage`} className='hover:text-black'>
+                <div className='flex items-center justify-center gap-1'>
+                  <li className='py-1  text-center  text-xs md:text-xl lg:text-sm xl:text-base'>Testimonial</li>
+                  {/* <IoIosArrowDown className='text-orange' /> */}
+                </div>
+              </Link>
+              {/* <div className='flex flex-col gap-1' onClick={handleDropdownToggle}>
                 <div className='flex items-center justify-center gap-1 hover:text-orange'>
                   <li className='py-1  text-xs md:text-xl lg:text-sm xl:text-base cursor-pointer'>Page</li>
                   <IoIosArrowDown className='text-orange' />
@@ -109,7 +115,7 @@ const Header = () => {
 
                   </div>
                 )}
-              </div>
+              </div> */}
               {/* <Link href={`/contact`} className='hover:text-black'>
                 <div className="flex justify-center items-center  lg:hidden pt-1 ">
                   <button className=' bg-orange text-white text-xs md:text-lg lg:text-sm xl:text-base p-2'>Free Consultation</button>
@@ -167,8 +173,14 @@ const Header = () => {
                     {/* <IoIosArrowDown className='text-orange' /> */}
                   </div>
                 </Link>
+                <Link href={`/testimonialpage`} className='hover:text-orange'>
+                  <div className='flex items-center gap-1'>
+                    <li>Testimonial</li>
+                   
+                  </div>
+                </Link>
 
-                <div className='flex flex-col gap-1' style={{ position: 'relative', whiteSpace: 'nowrap' }} onClick={handleDropdownToggle}>
+                {/* <div className='flex flex-col gap-1' style={{ position: 'relative', whiteSpace: 'nowrap' }} onClick={handleDropdownToggle}>
   <div className='flex items-center gap-1 hover:text-orange'>
     <li>Page</li>
     <IoIosArrowDown className='text-orange' />
@@ -189,7 +201,7 @@ const Header = () => {
       </ul>
     </div>
   )}
-</div>
+</div> */}
 
 
 

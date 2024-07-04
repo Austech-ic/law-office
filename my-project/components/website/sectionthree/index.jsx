@@ -2,6 +2,7 @@ import React from 'react'
 import One from '../../../public/img/one.jpeg'
 import Two from '../../../public/img/two.jpeg'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Index = () => {
     const details = [
@@ -10,7 +11,9 @@ const Index = () => {
             pic:One,
             label:'Landlord-Tenant Law For Renters',
             text:'As an experienced real estate litigator, the attorney with Alpha Advocate Law Group PC represents property owners in the Cerritos area and throughout California in landlord-tenant matters. We are....',
-            button:<button className='border border-orange px-4 py-2 md:px-8 md:py-4 lg:py-2 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button>
+            button:<Link href={`/renter`}>
+        <button className='border border-orange px-4 py-2 md:px-8 md:py-4 lg:py-2 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button>
+            </Link>
 
 
         },
@@ -19,7 +22,9 @@ const Index = () => {
             pic:Two,
             label:'Landlord-Tenant Law For Property Owners',
             text:'People who rent properties to live in or conduct business have rights under their lease agreements that must be upheld. As an experienced real estate litigator, the attorney with Alpha Adv...',
-            button:<button className='border border-orange px-4 py-2 md:px-8 md:py-4 lg:py-2 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button>
+            button:<Link href={`/owner`}>
+            <button className='border border-orange px-4 py-2 md:px-8 md:py-4 lg:py-2 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button>
+                </Link>
 
         },
         {
@@ -27,7 +32,9 @@ const Index = () => {
             pic:Two,
             label:'Personal Injury',
             text:'People who rent properties to live in or conduct business have rights under their lease agreements that must be upheld. As an experienced real estate litigator, the attorney with Alpha Adv...',
-            button:<button className='border border-orange px-4 py-2 md:px-8 md:py-4 lg:py-2 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button>
+            button:<Link href={`/personalinjury`}>
+            <button className='border border-orange px-4 py-2 md:px-8 md:py-4 lg:py-2 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button>
+                </Link>
 
         },
         {

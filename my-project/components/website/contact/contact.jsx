@@ -49,7 +49,7 @@ const Contact = () => {
         
        </form>
        
-       <div className=' flex flex-row justify-center items-center gap-y-1 gap-x-6 md:gap-x-10'>
+       <div className=' flex flex-col  lg:flex-row justify-center lg:items-center gap-y-1 gap-x-6 md:gap-x-10'>
         <div className='flex items-center gap-2 flex-1'>
         <IoCallOutline  className='text-orange w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] '/>
         <div>

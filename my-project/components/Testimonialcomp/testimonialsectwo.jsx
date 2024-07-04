@@ -13,8 +13,8 @@ const Testimonialsectwo = () => {
             id: 1,
             label: "Superb Lawyer!",
             pic: quo,
-            user: "By Joel",
-            desc: "I would like to thank Udo for assisting me in a legal battle against an unforeseen eviction hanging from my door, and she came to the rescue when no one else did. She was kind, helpful and heedful to all my concerns. I had very little time to",
+            user: "Client",
+            desc: "Simply phenomenal from start to finish! She was very professional, responsive, and empathetic throughout our court needs.",
 
             rate: [
                 { icon: <AiOutlineStar size={15} className='text-orange' /> },

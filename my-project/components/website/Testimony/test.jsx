@@ -17,8 +17,8 @@ const Test = () => {
     {
       id:1,
       label:"Superb Lawyer!",
-      user:"By Joel",
-      desc:"I would like to thank Udo for assisting me in a legal battle against an unforeseen eviction hanging from my door, and she came to the rescue when no one else did. She was kind, helpful and heedful to all my concerns. I had very little time to respond to the actions against and she put the pedal to the metal and worked tirelessly to meet the deadline. We prevailed and we were victorious, and I am thankful I was introduced to Udo. She is a solid choice for an attorney and I highly recommend her.",
+      user:"Client",
+      desc:"Simply phenomenal from start to finish! She was very professional, responsive, and empathetic throughout our court needs.",
       rate:[
         {icon: <AiOutlineStar size={15} className='text-orange' /> },
         {icon: <AiFillStar size={15} className='text-orange' /> },

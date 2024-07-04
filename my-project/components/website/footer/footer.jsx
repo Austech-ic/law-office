@@ -53,11 +53,11 @@ const Footer = () => {
                         <p className='text-sm md:text-2xl lg:text-base xl:text-lg font-bold' >Contact Us</p>
                         <div className='flex items-center gap-2'>
                             <IoCallOutline className='w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px]' />
-                            <p className='text-xs md:text-xl lg:text-sm  font-light'>562-667-0510</p>
+                            <p className='text-xs md:text-xl lg:text-sm  font-light'>562-456-3016.</p>
                         </div>
                         <div className='flex items-center gap-2'>
                             <MdOutlineMailOutline className='w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px]' />
-                            <p className='text-xs md:text-xl lg:text-sm  font-light'>alpha@gmail.com</p>
+                            <p className='text-xs md:text-xl lg:text-sm  font-light'>alphaadvocatelaw@gmail.com</p>
                         </div>
                         <div>
                             <p className='text-xs md:text-xl lg:text-sm font-light'>11432 South Street, Suite 373Cerritos, California 90703-6611</p>
@@ -70,6 +70,18 @@ const Footer = () => {
                         </div>
                         <div>
                             <p className='text-xs md:text-xl lg:text-sm  font-light'>Landlord-Tenant Law For Renters.</p>
+                        </div>
+                        <div>
+                            <p className='text-xs md:text-xl lg:text-sm  font-light'>Personal Injury.</p>
+                        </div>
+                        <div>
+                            <p className='text-xs md:text-xl lg:text-sm  font-light'>Sum Lord Litigation.</p>
+                        </div>
+                        <div>
+                            <p className='text-xs md:text-xl lg:text-sm  font-light'>Corprate Pratice.</p>
+                        </div>
+                        <div>
+                            <p className='text-xs md:text-xl lg:text-sm  font-light'>Restraining Orders.</p>
                         </div>
                     </div>
                 </div>
