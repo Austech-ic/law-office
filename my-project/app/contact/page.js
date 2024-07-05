@@ -5,7 +5,7 @@ import Header from '@/components/website/header/header'
 import Navbar from '@/components/website/navbar/navbar'
 import React from 'react'
 import Contactcomp from '@/components/website/contact/contact'
-import styles from './con.module.css'
+import styles from './contac.module.css'
 
 const Page = () => {
   return (
