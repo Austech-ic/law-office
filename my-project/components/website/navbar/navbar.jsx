@@ -52,7 +52,7 @@ const Navbar = () => {
                     Call Us On:
                   </p>
                   <p className="text-tiny md:text-sm lg:text-xs xl:text-sm text-white">
-                    562-667-0510
+                    562-456-3016
                   </p>
                 </div>
               </div>

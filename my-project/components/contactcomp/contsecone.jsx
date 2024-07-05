@@ -9,7 +9,7 @@ const Contsecone = () => {
       <div className="flex flex-col lg:flex-row gap-6">
         <div className="flex-1">
           <p className="text-orange text-lg md:text-3xl lg:text-xl xl:text-2xl ">
-            Say Hello to Udo Uchenna Ekekeulu
+            Say Hello to Udo Uchenna
           </p>
           <p className="text-xs md:text-xl lg:text-base font-light">
             Connect with us!! Drop a Line, Say Hello, and Lets Navigate Your
@@ -25,10 +25,10 @@ const Contsecone = () => {
             11432 South Street
           </p>
           <p className="text-xs md:text-xl lg:text-base font-light">
-            Alphaadvocatelaw@gmail.com
+            alphaadvocatelaw@gmail.com
           </p>
           <p className="text-xs md:text-xl lg:text-base font-semibold">
-            562-667-0510
+         562-456-3016
           </p>
         </div>
       </div>
@@ -94,7 +94,7 @@ const Contsecone = () => {
                 Call Us On:
               </p>
               <p className="text-xs md:text-xl lg:text-sm xl:text-sm ">
-                562-667-0510
+             562-456-3016
               </p>
             </div>
           </div>
@@ -105,7 +105,7 @@ const Contsecone = () => {
                 Email Us On:
               </p>
               <p className="text-xs md:text-xl lg:text-sm xl:text-sm">
-                Alphaadvocatelaw@gmail.com
+                alphaadvocatelaw@gmail.com
               </p>
             </div>
           </div>
@@ -119,7 +119,7 @@ const Contsecone = () => {
               Main Office :
             </p>
             <p className="text-white text-xs md:text-lg lg:text-xs">
-              11432 South Street, Suite 373Cerritos, California 90703-6611
+              11432 South Street, Suite 373 Cerritos, California 90703-6611
             </p>
           </div>
         </div>
