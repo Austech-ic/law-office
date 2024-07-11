@@ -6,7 +6,7 @@ const Consult = () => {
     <div className="flex flex-col gap-4 md:gap-8 lg:flex-row bg-white p-6 md:p-12 lg:px-28 lg:py-10 xl:px-40  ">
       <div className="flex-1 flex flex-col gap-2 md:gap-4 lg:py-10">
         <p className="text-sm md:text-2xl lg:text-lg xl:text-lg font-medium">
-         Say Hello to Udo Uchenna
+          Have a legal question? Contact Alpha Advocate Law Group PC
         </p>
         <p className="text-xs md:text-xl lg:text-xs xl:text-sm  font-light">
           Connect with us!! Drop a Line, Say Hello, and Lets Navigate Your Legal

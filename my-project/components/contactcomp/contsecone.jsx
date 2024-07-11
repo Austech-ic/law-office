@@ -9,7 +9,7 @@ const Contsecone = () => {
       <div className="flex flex-col lg:flex-row gap-6">
         <div className="flex-1">
           <p className="text-orange text-lg md:text-3xl lg:text-xl xl:text-2xl ">
-            Say Hello to Udo Uchenna
+            Have a legal question? Contact Alpha Advocate Law Group PC
           </p>
           <p className="text-xs md:text-xl lg:text-base font-light">
             Connect with us!! Drop a Line, Say Hello, and Lets Navigate Your
@@ -22,13 +22,14 @@ const Contsecone = () => {
             California
           </p>
           <p className="text-xs md:text-xl lg:text-base font-light">
-            11432 South Street
+            ALPHA ADVOCATE LAW GROUP PC. 11432 South Street Suite 373, Cerritos,
+            CA 90703.
           </p>
           <p className="text-xs md:text-xl lg:text-base font-light">
-            alphaadvocatelaw@gmail.com
+            Alphaadvocatelaw@gmail.com
           </p>
           <p className="text-xs md:text-xl lg:text-base font-semibold">
-         562-456-3016
+            562-219-0089
           </p>
         </div>
       </div>
@@ -94,7 +95,7 @@ const Contsecone = () => {
                 Call Us On:
               </p>
               <p className="text-xs md:text-xl lg:text-sm xl:text-sm ">
-             562-456-3016
+                562-456-3016
               </p>
             </div>
           </div>

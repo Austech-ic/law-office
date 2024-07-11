@@ -74,7 +74,7 @@ const Contact = () => {
                     Call Us On:
                   </p>
                   <p className="text-xs md:text-xl lg:text-sm xl:text-sm ">
-                    562-456-3016
+                    562-219-0089
                   </p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const Contact = () => {
                     Email Us On:
                   </p>
                   <p className="text-xs md:text-xl lg:text-sm xl:text-sm">
-                    alphaadvocatelaw@gmail.com
+                    Alphaadvocatelaw@gmail.com
                   </p>
                 </div>
               </div>
