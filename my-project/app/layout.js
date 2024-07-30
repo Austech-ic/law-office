@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import ClientLoader from "./clientloader";
 
 export const metadata = {
   title: "Law Office Of Udo Uchenna Ekekeulu",
@@ -11,7 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <ClientLoader>
+          {children}
+        </ClientLoader>
+      </body>
     </html>
   );
 }
