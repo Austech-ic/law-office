@@ -34,7 +34,7 @@ const Pratsectiontwo = () => {
         {
             id:4,
             pic:Two,
-            label:'Sum Lord Litigation',
+            label:'Slum Lord Litigation',
             text:'People who rent properties to live in or conduct business have rights under their lease agreements that must be upheld. As an experienced real estate litigator, the attorney with Alpha Adv...',
             button:<Link href={`/renter`}><button className='border border-orange px-4 py-2 md:px-8 md:py-4 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button></Link>
 

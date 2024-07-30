@@ -21,7 +21,7 @@ const Consult = () => {
                     </div>
                   <div className='flex flex-col '>
                   <p className='text-tiny md:text-xl lg:text-xs xl:text-sm font-extralight'>Call Us On:</p>
-                  <p className='text-tiny md:text-xl lg:text-xs xl:text-sm font-semibold'>562-667-0510</p>
+                  <p className='text-tiny md:text-xl lg:text-xs xl:text-sm font-semibold'>562-219-0089</p>
                   </div>
                 </div>
 

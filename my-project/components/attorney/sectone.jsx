@@ -37,7 +37,7 @@ const sectone = () => {
         </div>
         
         <p className='text-xl md:text-5xl lg:text-3xl xl:text-4xl leading-tight md:leading-tight lg:leading-tight xl:leading-tight '>Law Office Of <br className='hidden md:block' /> Alpha Advocate Law Group PC</p>
-        <p className='text-sm md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-light'>At Alpha Advocate Law Group PC, we are a team of dedicated and experienced attorneys committed to providing exceptional legal representation to our clients. With a comprehensive understanding of the law and a passion for justice, we strive to protect the rights and interests of individuals and businesses across a wide range of practice areas.
+        <p className='text-sm md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-light'>At Alpha Advocate Law Group PC, we are dedicated,experienced and committed to providing exceptional legal representation to our clients. With a comprehensive understanding of the law and a passion for justice, we strive to protect the rights and interests of individuals and businesses across a wide range of practice areas.
 </p>
         <div className='flex items-center gap-2 md:gap-4 py-2 '>
                             <BsInstagram className='w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px]' />

@@ -54,7 +54,7 @@ const Contact = () => {
         <IoCallOutline  className='text-orange w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] '/>
         <div>
           <p className='text-orange text-xs md:text-sm lg:text-xs xl:text-sm'>Call Us On:</p>
-          <p className='text-xs md:text-xl lg:text-sm xl:text-sm '>562-456-3016</p>
+          <p className='text-xs md:text-xl lg:text-sm xl:text-sm '> 562-219-0089</p>
         </div>
         </div>
         <div className='flex items-center gap-2 flex-1'>

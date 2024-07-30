@@ -24,25 +24,25 @@ const Sectwo = () => {
         <div>
           <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-semibold'> Landlord/Tenant Law</p>
           <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-light'>
-            Navigating the intricate web of landlord-tenant laws can be daunting. Our skilled attorneys are well-versed in this area of law and can provide valuable guidance and representation for both landlords and tenants. Whether you are facing eviction, need assistance with lease agreements, or have disputes over security deposits, we are here to protect your rights and ensure a fair resolution.
+            Navigating the intricate web of landlord-tenant laws can be daunting. We are well-versed in this area of law and can provide valuable guidance and representation for both landlords and tenants. Whether you are facing eviction, need assistance with lease agreements, or have disputes over security deposits, we are here to protect your rights and ensure a fair resolution.
           </p>
         </div>
 
         <div>
-          <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-semibold'> Sum Lord Litigation
+          <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-semibold'> Slum Lord Litigation
           </p>
           <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-light'>
-            In the complex realm of sum lord litigation, our attorneys possess the expertise and tenacity to represent your interests effectively. We handle cases involving poor housing conditions (habitability), contract disputes, debt recovery, and other legal matters related to sum lord transactions. Our team will work tirelessly to safeguard your rights and pursue the best possible outcome for your case.
+            In the complex realm of slum lord litigation, We possess the expertise and tenacity to represent your interests effectively. We handle cases involving poor housing conditions (habitability), contract disputes, and other legal matters related to slum lord transactions. Our team will work tirelessly to safeguard your rights and pursue the best possible outcome for your case.
 
           </p>
         </div>
 
         <div>
-          <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-semibold'> Corporate Practice
+          <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-semibold'> Corprate Practice
 
           </p>
           <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-light'>
-            For businesses of all sizes, our corporate practice attorneys offer comprehensive legal services tailored to your specific needs. From entity formation and corporate governance to mergers and acquisitions, we provide strategic guidance and representation to ensure your business operates within legal boundaries and maximizes its potential for growth and success.
+            For businesses of all sizes, we offer comprehensive legal services tailored to your specific needs. We provide strategic guidance and representation to ensure your business operates within legal boundaries and maximizes its potential for growth and success.
           </p>
         </div>
 
@@ -51,12 +51,12 @@ const Sectwo = () => {
 
           </p>
           <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-light'>
-            In cases where personal safety is a concern, our attorneys can assist in obtaining restraining orders. We understand the delicate nature of these situations and will handle your case with the utmost sensitivity and professionalism. Our goal is to ensure your protection and provide you with the legal support you need during these challenging times.
+            In cases where personal safety is a concern, we can assist in obtaining restraining orders. We understand the delicate nature of these situations and will handle your case with the utmost sensitivity and professionalism. Our goal is to ensure your protection and provide you with the legal support you need during these challenging times.
           </p>
         </div>
 
         <p className='text-xs md:text-2xl lg:text-lg xl:text-xl leading-6 md:leading-10 lg:leading-7 xl:leading-9 font-light'>
-          At Alpha Advocate Law Group PC, we pride ourselves on our commitment to excellence, integrity, and personalized attention to each clients unique needs. Our attorneys are dedicated to providing compassionate and effective legal representation, ensuring your rights are protected and your best interests are always at the forefront.Contact us today to schedule a consultation and learn how we can assist you with your legal matter.
+          At Alpha Advocate Law Group PC, we pride ourselves on our commitment to excellence, integrity, and personalized attention to each clients unique needs. Our team is are dedicated to providing compassionate and effective legal representation, ensuring your rights are protected and your best interests are always at the forefront.Contact us today to schedule a consultation and learn how we can assist you with your legal matter.
 
         </p>
 
@@ -72,7 +72,7 @@ const Sectwo = () => {
             <ul className='list-disc px-6 py-2 text-xs md:text-lg lg:text-base'>
               <li className='decoration-dotted'>2019 Californian Bar Association.
               </li>
-              <li>2008 Nigerian Bar Association</li>
+              <li>2009 Nigerian Bar Association</li>
             </ul>
           </div>
           <div>

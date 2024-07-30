@@ -53,7 +53,7 @@ const Footer = () => {
                         <p className='text-sm md:text-2xl lg:text-base xl:text-lg font-bold' >Contact Us</p>
                         <div className='flex items-center gap-2'>
                             <IoCallOutline className='w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px]' />
-                            <p className='text-xs md:text-xl lg:text-sm  font-light'>562-456-3016.</p>
+                            <p className='text-xs md:text-xl lg:text-sm  font-light'>562-219-0089.</p>
                         </div>
                         <div className='flex items-center gap-2'>
                             <MdOutlineMailOutline className='w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px]' />
@@ -75,7 +75,7 @@ const Footer = () => {
                             <p className='text-xs md:text-xl lg:text-sm  font-light'>Personal Injury.</p>
                         </div>
                         <div>
-                            <p className='text-xs md:text-xl lg:text-sm  font-light'>Sum Lord Litigation.</p>
+                            <p className='text-xs md:text-xl lg:text-sm  font-light'>Slum Lord Litigation.</p>
                         </div>
                         <div>
                             <p className='text-xs md:text-xl lg:text-sm  font-light'>Corprate Pratice.</p>

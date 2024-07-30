@@ -16,7 +16,7 @@ const Contsecone = () => {
         <p className='text-orange text-lg md:text-3xl lg:text-xl xl:text-2xl'>California</p>
         <p className='text-xs md:text-xl lg:text-base font-light'>11432 South Street</p>
         <p className='text-xs md:text-xl lg:text-base font-light'>alphaasvocatelaw@gmail.com</p>
-        <p className='text-xs md:text-xl lg:text-base font-semibold'>562-667-0510</p>
+        <p className='text-xs md:text-xl lg:text-base font-semibold'>562-219-0089</p>
        </div>
        </div>
        <div className='bg-white '>
@@ -58,14 +58,14 @@ const Contsecone = () => {
         <IoCallOutline  className='text-orange w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] '/>
         <div className='text-white'>
           <p className='text-orange text-xs md:text-xl lg:text-xs xl:text-sm'>Call Us On:</p>
-          <p className='text-xs md:text-xl lg:text-sm xl:text-sm '>562-667-0510</p>
+          <p className='text-xs md:text-xl lg:text-sm xl:text-sm '>562-219-0089</p>
         </div>
         </div>
         <div className='flex items-center gap-2 '>
         <MdOutlineMailOutline  className='text-orange w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] '/>
         <div className='text-white'>
           <p className='text-orange text-xs md:text-xl lg:text-sm xl:text-sm'>Email Us On:</p>
-          <p className='text-xs md:text-xl lg:text-sm xl:text-sm'>alpha@gmail.com</p>
+          <p className='text-xs md:text-xl lg:text-sm xl:text-sm'>Alphaadvocatelaw@gmail.com</p>
         </div>
         </div> 
        
