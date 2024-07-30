@@ -11,16 +11,16 @@ const Consult = () => {
                     <button className='bg-orange text-white px-8 py-2 text-xs md:text-xl lg:text-sm xl:text-base font-light'>Contact Us</button>
                 </div>
             </div>
-            <div className='flex-1 border border-slate-400 p-3 md:p-8 lg:p-8 border-4'>
+            <div className='flex-1 border border-slate-400 p-3 md:p-8 lg:p-8 lg:border-4'>
             <p className='text-sm md:text-2xl lg:text-lg xl:text-lg  font-medium'>Get a Free Consultation</p>
                 <p className='text-xs md:text-xl lg:text-xs xl:text-sm font-extralight'>We are available to assist you with your legal case</p>
                 <div>
                 <div className='flex gap-2 md:gap-4 lg:gap-2 items-center py-5'>
                     <div className='bg-orange text-white w-[30px] h-[30px] md:w-[50px] md:h-[50px] lg:w-[40px] lg:h-[40px] xl:w-[50px] xl:h-[50px] flex items-center justify-center'>
-                      <IoCallOutline className='h-[10px] w-[10px] md:h-[20px] md:w-[20px] lg:h-[15px] lg:w-[15px] xl:h-[20px] xl:w-[20px]' />
+                      <IoCallOutline className='h-[13px] w-[13px] md:h-[20px] md:w-[20px] lg:h-[15px] lg:w-[15px] xl:h-[20px] xl:w-[20px]' />
                     </div>
                   <div className='flex flex-col '>
-                  <p className='text-tiny md:text-xl lg:text-xs xl:text-sm font-extralight'>Call Us On:</p>
+                  <p className='text-xs md:text-xl lg:text-xs xl:text-sm font-extralight'>Call Us On:</p>
                   <p className='text-tiny md:text-xl lg:text-xs xl:text-sm font-semibold'>562-219-0089</p>
                   </div>
                 </div>
