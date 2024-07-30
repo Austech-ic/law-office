@@ -42,7 +42,9 @@ const Index = () => {
             pic:Two,
             label:'Slum Lord Litigation',
             text:'People who rent properties to live in or conduct business have rights under their lease agreements that must be upheld. As an experienced real estate litigator, the attorney with Alpha Adv...',
-            button:<button className='border border-orange px-4 py-2 md:px-8 md:py-4 lg:py-2 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button>
+            button:<Link href={`/slumlord`}>
+            <button className='border border-orange px-4 py-2 md:px-8 md:py-4 lg:py-2 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button>
+            </Link>
 
         },
         {
@@ -50,7 +52,8 @@ const Index = () => {
             pic:Two,
             label:'Corprate Pratice',
             text:'People who rent properties to live in or conduct business have rights under their lease agreements that must be upheld. As an experienced real estate litigator, the attorney with Alpha Adv...',
-            button:<button className='border border-orange px-4 py-2 md:px-8 md:py-4 lg:py-2 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button>
+            button:<Link href={`/corprate`}>
+            <button className='border border-orange px-4 py-2 md:px-8 md:py-4 lg:py-2 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button></Link>
 
         },
         {
@@ -58,7 +61,8 @@ const Index = () => {
             pic:Two,
             label:'Restraining Orders',
             text:'People who rent properties to live in or conduct business have rights under their lease agreements that must be upheld. As an experienced real estate litigator, the attorney with Alpha Adv...',
-            button:<button className='border border-orange px-4 py-2 md:px-8 md:py-4 lg:py-2 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button>
+            button:<Link href={`/restrainorders`}>
+            <button className='border border-orange px-4 py-2 md:px-8 md:py-4 lg:py-2 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button></Link>
 
         },
     ]

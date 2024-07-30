@@ -44,7 +44,7 @@ const Pratsectiontwo = () => {
             pic:Two,
             label:'Corprate Pratice',
             text:'People who rent properties to live in or conduct business have rights under their lease agreements that must be upheld. As an experienced real estate litigator, the attorney with Alpha Adv...',
-            button:<Link href={`/renter`}><button className='border border-orange px-4 py-2 md:px-8 md:py-4 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button></Link>
+            button:<Link href={`/corpratepratice`}><button className='border border-orange px-4 py-2 md:px-8 md:py-4 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button></Link>
 
         },
         {
@@ -52,7 +52,7 @@ const Pratsectiontwo = () => {
             pic:Two,
             label:'Restraining Orders',
             text:'People who rent properties to live in or conduct business have rights under their lease agreements that must be upheld. As an experienced real estate litigator, the attorney with Alpha Adv...',
-            button:<Link href={`/renter`}><button className='border border-orange px-4 py-2 md:px-8 md:py-4 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button></Link>
+            button:<Link href={`/restrainorders`}><button className='border border-orange px-4 py-2 md:px-8 md:py-4 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button></Link>
 
         }
     ]

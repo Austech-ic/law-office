@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './sectionone.module.css';
 import Header from '../header/header';
 import Navbar from '../navbar/navbar';
+import Link from 'next/link';
 
 const Index = () => {
   return (
@@ -17,9 +18,11 @@ const Index = () => {
           throughout Los Angeles, CA
         </p>
         <div className="mt-16 md:py-20 lg:mt-0 ">
+        <Link href={`/contact`}>
           <button className="bg-orange text-white text-xs md:text-xl lg:text-base xl:text-lg p-[15px] md:p-4">
             Schedule Consultation
           </button>
+          </Link>
         </div>
       </div>
     </div>
