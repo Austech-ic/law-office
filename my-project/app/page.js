@@ -1,4 +1,4 @@
-import ClientLoader from "./clientloader";
+
 import Header from "@/components/website/header/header";
 import Sectionone from '../components/website/sectionone/index'
 import Sectiontwo from '../components/website/sectiontwo/index'
@@ -14,7 +14,7 @@ import Footer from "@/components/website/footer/footer";
 export default function Home() {
   return (
     
-    <ClientLoader>
+
     <div>
       <Sectionone />
       <Sectiontwo />
@@ -24,6 +24,6 @@ export default function Home() {
       <Contact />
       <Footer />
     </div>
-  </ClientLoader>
+  
   );
 }
