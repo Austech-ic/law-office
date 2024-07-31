@@ -2,6 +2,7 @@
 
 import './globals.css';
 import ClientLoader from './clientloader';
+import { Suspense } from 'react';
 
 export const metadata = {
   title: "Law Office Of Udo Uchenna Ekekeulu",
@@ -12,9 +13,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <ClientLoader>
-          {children}
-        </ClientLoader>
+        <Suspense fallback={<p>Loading...</p>}>
+          <ClientLoader>
+            {children}
+          </ClientLoader>
+        </Suspense>
       </body>
     </html>
   );

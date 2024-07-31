@@ -2,8 +2,8 @@
 
 'use client';
 
-import { useState, useEffect } from 'react';
-import { usePathname, useSearchParams } from 'next/navigation';
+import { useState, useEffect, Suspense } from 'react';
+import { usePathname } from 'next/navigation';
 import dynamic from 'next/dynamic';
 
 const DynamicLoader = dynamic(() => import('./Loader/loader'), {
@@ -13,7 +13,6 @@ const DynamicLoader = dynamic(() => import('./Loader/loader'), {
 const ClientLoader = ({ children }) => {
   const [loading, setLoading] = useState(false);
   const pathname = usePathname();
-  const searchParams = useSearchParams();
 
   useEffect(() => {
     const handleRouteChange = () => {
@@ -24,13 +23,13 @@ const ClientLoader = ({ children }) => {
     handleRouteChange();
 
     return () => {};
-  }, [pathname, searchParams]);
+  }, [pathname]);
 
   return (
-    <>
+    <Suspense fallback={<p>Loading...</p>}>
       {loading && <DynamicLoader />}
       {children}
-    </>
+    </Suspense>
   );
 };
 
