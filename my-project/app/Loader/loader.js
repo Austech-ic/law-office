@@ -1,11 +1,11 @@
-// components/Loader.js
-
-import styles from './Loader.module.css';
+// LoadingSpinner.js
+import React from 'react';
+import styles from './loader.module.css';
 
 const Loader = () => {
   return (
-    <div className={styles.loaderContainer}>
-      <div className={styles.loader}></div>
+    <div className={styles.spinner}>
+       <div className={styles.loader}></div>
     </div>
   );
 };

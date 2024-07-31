@@ -1,6 +1,7 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
-import ClientLoader from "./clientloader";
+// app/layout.js
+
+import './globals.css';
+import ClientLoader from './clientloader';
 
 export const metadata = {
   title: "Law Office Of Udo Uchenna Ekekeulu",
