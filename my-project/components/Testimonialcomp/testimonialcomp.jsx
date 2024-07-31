@@ -25,7 +25,7 @@ const Testimonialcomp = () => {
         <IoIosArrowForward className='font-light ' />
        </div> */}
        <Link href={`/testimonialpage`} >
-            <p className='text-sm md:text-2xl lg:text-lg xl:text-xl font-light '>Testimony</p>
+            <p className='text-sm md:text-2xl lg:text-lg xl:text-xl font-light '>Testimonial</p>
         </Link>
 
         </div>

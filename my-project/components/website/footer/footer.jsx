@@ -65,25 +65,38 @@ const Footer = () => {
                     </div>
                     <div className='flex-1  flex flex-col gap-2 md:gap-3 lg:gap-2'>
                         <p className='text-xs md:text-xl lg:text-sm xl:text-base font-bold'>Practice Areas</p>
+                        <Link href={`/owner`} className='hover:text-orange'>
                         <div>
                             <p className='text-xs md:text-xl lg:text-sm font-light'>Landlord-Tenant Law For Owners.</p>
                         </div>
+                        </Link>
+                        <Link href={`/renter`} className='hover:text-orange'>
                         <div>
                             <p className='text-xs md:text-xl lg:text-sm  font-light'>Landlord-Tenant Law For Renters.</p>
                         </div>
+                        </Link>
+                        <Link href={`/personalinjury`} className='hover:text-orange'>
                         <div>
                             <p className='text-xs md:text-xl lg:text-sm  font-light'>Personal Injury.</p>
                         </div>
+                        </Link>
+                        <Link href={`/slumlord`} className='hover:text-orange'>
                         <div>
                             <p className='text-xs md:text-xl lg:text-sm  font-light'>Slum Lord Litigation.</p>
                         </div>
+                        </Link>
+                        <Link href={`/corpratepratice`} className='hover:text-orange'>
                         <div>
                             <p className='text-xs md:text-xl lg:text-sm  font-light'>Corprate Pratice.</p>
                         </div>
+                        </Link>
+                        <Link href={`/restrainorders`} className='hover:text-orange'>
                         <div>
                             <p className='text-xs md:text-xl lg:text-sm  font-light'>Restraining Orders.</p>
                         </div>
+                        </Link>
                     </div>
+                    
                 </div>
             </div>
             <div className='pt-[33px] md:pt-[50px] lg:pt-[100px]'>
@@ -121,7 +134,7 @@ const Footer = () => {
                             </div>
                         )}
                     </div> */}
-                    <Link href={`/praticeareas`} className='hover:text-orange'>
+                    <Link href={`/praticearea`} className='hover:text-orange'>
                         <div className='flex items-center gap-1'>
                             <li className='text-xs md:text-xl lg:text-sm'>Pratice Areas</li>
                         </div>
