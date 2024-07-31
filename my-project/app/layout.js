@@ -1,8 +1,8 @@
-// app/layout.js
+import { Inter } from "next/font/google";
+import "./globals.css";
+import Loader from './Loader/loader';
 
-import './globals.css';
-import ClientLoader from './clientloader';
-import { Suspense } from 'react';
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Law Office Of Udo Uchenna Ekekeulu",
@@ -12,13 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Suspense fallback={<p>Loading...</p>}>
-          <ClientLoader>
-            {children}
-          </ClientLoader>
-        </Suspense>
-      </body>
+      <body className={inter.className}>
+      
+        {children}
+      
+        </body>
     </html>
   );
 }
