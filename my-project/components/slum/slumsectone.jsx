@@ -21,6 +21,7 @@ const Slumsectone = () => {
             <p className="text-sm md:text-2xl lg:text-lg xl:text-xl font-light ">
               Home
             </p>
+          
           </Link>
 
           <IoIosArrowForward className="font-light " />
