@@ -13,6 +13,7 @@ import Footer from "@/components/website/footer/footer";
 
 export default function Home() {
   return (
+    
     <ClientLoader>
     <div>
       <Sectionone />
