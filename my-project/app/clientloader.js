@@ -2,34 +2,43 @@
 
 'use client';
 
-import { useState, useEffect, Suspense } from 'react';
-import { usePathname } from 'next/navigation';
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
 
 const DynamicLoader = dynamic(() => import('./Loader/loader'), {
-  loading: () => <p>Loading...</p>, // Optional: You can customize this to show a simple text or a different loading indicator
+  ssr: false, // Ensure the loader is only rendered on the client side
 });
 
 const ClientLoader = ({ children }) => {
   const [loading, setLoading] = useState(false);
-  const pathname = usePathname();
+  const router = useRouter();
 
   useEffect(() => {
-    const handleRouteChange = () => {
+    const handleRouteChangeStart = () => {
       setLoading(true);
-      setTimeout(() => setLoading(false), 1000); // Simulate a delay to show loader
     };
 
-    handleRouteChange();
+    const handleRouteChangeComplete = () => {
+      setLoading(false);
+    };
 
-    return () => {};
-  }, [pathname]);
+    router.events.on('routeChangeStart', handleRouteChangeStart);
+    router.events.on('routeChangeComplete', handleRouteChangeComplete);
+    router.events.on('routeChangeError', handleRouteChangeComplete);
+
+    return () => {
+      router.events.off('routeChangeStart', handleRouteChangeStart);
+      router.events.off('routeChangeComplete', handleRouteChangeComplete);
+      router.events.off('routeChangeError', handleRouteChangeComplete);
+    };
+  }, [router]);
 
   return (
-    <Suspense fallback={<p>Loading...</p>}>
+    <>
       {loading && <DynamicLoader />}
       {children}
-    </Suspense>
+    </>
   );
 };
 
