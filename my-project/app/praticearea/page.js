@@ -8,7 +8,7 @@ import Pratsectionone from '@/components/pratarea/pratsectionone'
 import Footer from '@/components/website/footer/footer'
 import Pratsectiontwo from '@/components/pratarea/pratsectiontwo'
 
-const page = () => {
+const Page = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -33,6 +33,7 @@ const page = () => {
  <div>
      <div className={styles.main}>
       <Header />
+      
       {/* <Navbar /> */}
       <Pratsectionone />
     </div>
