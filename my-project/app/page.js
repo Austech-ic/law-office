@@ -1,4 +1,4 @@
-import ClientLoader from '../components/ClientLoader';
+import ClientLoader from "./clientloader";
 import Header from "@/components/website/header/header";
 import Sectionone from '../components/website/sectionone/index'
 import Sectiontwo from '../components/website/sectiontwo/index'
