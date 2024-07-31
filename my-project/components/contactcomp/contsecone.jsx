@@ -127,16 +127,16 @@ const Contsecone = () => {
     
        </div>
       <div className='flex flex-col lg:flex-row gap-6'>
-      <div className='flex flex-col lg:flex-row flex-1 bg-green gap-4 lg:gap-8 xl:gap-10 p-5' >
-       <div className='flex items-center gap-2'>
-        <IoCallOutline  className='text-orange w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] '/>
-        <div className='text-white'>
+      <div className='flex flex-col md:flex-row lg:flex-col xl:flex-row justify-start  flex-1 bg-green gap-4 lg:gap-4 xl:gap-10 p-5' >
+       <div className='flex items-center gap-2 md:gap-4 flex-1'>
+        <IoCallOutline  className='text-orange w-[12px] h-[12px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] '/>
+        <div className='text-white '>
           <p className='text-orange text-xs md:text-xl lg:text-xs xl:text-sm'>Call Us On:</p>
           <p className='text-xs md:text-xl lg:text-sm xl:text-sm '>562-219-0089</p>
         </div>
         </div>
-        <div className='flex items-center gap-2 '>
-        <MdOutlineMailOutline  className='text-orange w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] '/>
+        <div className='flex items-center  flex-1 gap-2 md:gap-4  '>
+        <MdOutlineMailOutline  className='text-orange w-[12px] h-[12px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] '/>
         <div className='text-white'>
           <p className='text-orange text-xs md:text-xl lg:text-sm xl:text-sm'>Email Us On:</p>
           <p className='text-xs md:text-xl lg:text-sm xl:text-sm'>Alphaadvocatelaw@gmail.com</p>
@@ -145,9 +145,9 @@ const Contsecone = () => {
        
         
        </div>
-       <div className='flex items-center gap-4 bg-green flex-1 p-5'>
+       <div className='flex items-center gap-2 md:gap-4  bg-green flex-1 p-5'>
        <div>
-        <MdLocationPin className='text-orange w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] ' />
+        <MdLocationPin className='text-orange w-[12px] h-[12px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] ' />
        </div>
        <div className='flex flex-col gap-1'>
         <p className='text-orange text-sm md:text-xl lg:text-sm'>Main Office :</p>
