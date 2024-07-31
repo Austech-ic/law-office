@@ -29,8 +29,9 @@ const Contact = () => {
       <div className='bg-white flex flex-col-reverse lg:flex-row  gap-12 md:gap-20 '>
         <div className='flex-1 '>
           <div className='p-5 md:p-10 lg:p-5 xl:p-10'>
-            <p className='text-2xl md:text-5xl font-bold'>Get in <span className='text-orange'>Touch</span></p>
-            <p className='text-xs md:text-xl lg:text-sm xl:text-base mt-4 font-semibold'>Horem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+          <p className='text-2xl md:text-5xl font-bold'>Get in <span className='text-orange'>Touch</span></p>
+<p className='text-xs md:text-xl lg:text-sm xl:text-base mt-4 font-semibold'>Our team of experienced attorneys is here to provide you with expert legal advice and representation. Contact us today to schedule a consultation.</p>
+
 
 
             <Formik
