@@ -11,7 +11,7 @@ const Rentersectwo = () => {
             </div>
             <div className='flex flex-col gap-2'>
                 <p className='text-orange text-sm md:text-2xl lg:text-lg xl:text-2xl'>Slum Lord Ligitation</p>
-                <p className='text-xs md:text-xl lg:text-sm xl:text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque assumenda quo explicabo voluptas, est ex provident dicta culpa natus sint, perferendis cupiditate autem. Excepturi, cupiditate beatae! Sapiente enim ratione, magnam laborum, alias inventore ipsum incidunt dolorum deserunt, molestias quos labore. Deleniti dicta reiciendis nostrum magnam eligendi alias laudantium quam delectus officiis suscipit pariatur, iure impedit labore repellat! Voluptates, unde praesentium.</p>
+                <p className='text-xs md:text-xl lg:text-sm xl:text-base'>In the complex realm of sum lord litigation, our attorneys possess the expertise and tenacity to represent your interests effectively. We handle cases involving poor housing conditions (habitability), contract disputes, debt recovery, and other legal matters related to sum lord transactions. Our team will work tirelessly to safeguard your rights and pursue the best possible outcome for your case.</p>
             </div>
             
            

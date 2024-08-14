@@ -11,7 +11,7 @@ const Restrainsectwo = () => {
             </div>
             <div className='flex flex-col gap-2'>
                 <p className='text-orange text-sm md:text-2xl lg:text-lg xl:text-2xl'>Restraining Orders</p>
-                <p className='text-xs md:text-xl lg:text-sm xl:text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque assumenda quo explicabo voluptas, est ex provident dicta culpa natus sint, perferendis cupiditate autem. Excepturi, cupiditate beatae! Sapiente enim ratione, magnam laborum, alias inventore ipsum incidunt dolorum deserunt, molestias quos labore. Deleniti dicta reiciendis nostrum magnam eligendi alias laudantium quam delectus officiis suscipit pariatur, iure impedit labore repellat! Voluptates, unde praesentium.</p>
+                <p className='text-xs md:text-xl lg:text-sm xl:text-base'>In cases where personal safety is a concern, our attorneys can assist in obtaining restraining orders. We understand the delicate nature of these situations and will handle your case with the utmost sensitivity and professionalism. Our goal is to ensure your protection and provide you with the legal support you need during these challenging times.</p>
             </div>
             
            

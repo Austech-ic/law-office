@@ -27,7 +27,7 @@ const Pratsectiontwo = () => {
             id:3,
             pic:Two,
             label:'Personal Injury',
-            text:'People who rent properties to live in or conduct business have rights under their lease agreements that must be upheld. As an experienced real estate litigator, the attorney with Alpha Adv...',
+            text:'If you or a loved one has been injured due to someone else negligence, our personal injury attorneys are here to fight for the compensation you deserve. We handle cases involving car accidents...',
             button:<Link href={`/personalinjury`}><button className='border border-orange px-4 py-2 md:px-8 md:py-4 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button></Link>
 
         },
@@ -35,7 +35,7 @@ const Pratsectiontwo = () => {
             id:4,
             pic:Two,
             label:'Slum Lord Litigation',
-            text:'People who rent properties to live in or conduct business have rights under their lease agreements that must be upheld. As an experienced real estate litigator, the attorney with Alpha Adv...',
+            text:'In the complex realm of sum lord litigation, our attorneys possess the expertise and tenacity to represent your interests effectively....',
             button:<Link href={`/slumlord`}><button className='border border-orange px-4 py-2 md:px-8 md:py-4 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button></Link>
 
         },
@@ -43,7 +43,7 @@ const Pratsectiontwo = () => {
             id:5,
             pic:Two,
             label:'Corprate Pratice',
-            text:'People who rent properties to live in or conduct business have rights under their lease agreements that must be upheld. As an experienced real estate litigator, the attorney with Alpha Adv...',
+            text:'For businesses of all sizes, our corporate practice attorneys offer comprehensive legal services tailored to your specific needs. From entity formation and corporate...',
             button:<Link href={`/corpratepratice`}><button className='border border-orange px-4 py-2 md:px-8 md:py-4 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button></Link>
 
         },
@@ -51,7 +51,7 @@ const Pratsectiontwo = () => {
             id:6,
             pic:Two,
             label:'Restraining Orders',
-            text:'People who rent properties to live in or conduct business have rights under their lease agreements that must be upheld. As an experienced real estate litigator, the attorney with Alpha Adv...',
+            text:'In cases where personal safety is a concern, our attorneys can assist in obtaining restraining orders. We understand the delicate nature of these situations...',
             button:<Link href={`/restrainorders`}><button className='border border-orange px-4 py-2 md:px-8 md:py-4 bg-transparent text-orange text-xs md:text-xl lg:text-base xl:text-lg'>Learn More</button></Link>
 
         }
@@ -68,7 +68,7 @@ const Pratsectiontwo = () => {
                 <div key={datum.id} className='bg-white border border-white flex flex-col items-center p-5 md:p-10 lg:p-5 gap-4 md:gap-6 shadow-md'>
                     <Image src={datum.pic} alt='pic-img' className='w-[30%] md:w-[15%] lg:w-[25%] xl:w-[20%]' />
                     <p className='text-center  text-sm md:text-2xl lg:text-base xl:text-xl font-semibold'>{datum.label}</p>
-                    <p className='text-center  font-light text-xs md:text-xl lg:text-base xl:text-lg'>{datum.text}</p>
+                    <p className='text-center  font-light text-xs md:text-xl lg:text-base xl:text-lg h-[13vh] lg:h-[20vh] xl:h-[16vh]'>{datum.text}</p>
                     <p className='text-center '>{datum.button}</p>
                     </div>
             ))
