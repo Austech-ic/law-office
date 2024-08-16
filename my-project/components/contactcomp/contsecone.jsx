@@ -1,6 +1,7 @@
 "use client"
 
-import React from 'react'
+import React, { useState } from 'react';
+import Link from 'next/link';
 import { IoCallOutline } from "react-icons/io5";
 import { MdLocationPin, MdOutlineMailOutline } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
@@ -10,6 +11,15 @@ import * as Yup from 'yup';
 
 
 const Contsecone = () => {
+  const [address] = useState("11432 South Street, Suite 373Cerritos, California 90703-6611");
+
+  const handleAddressClick = () => {
+      const encodedAddress = encodeURIComponent(address);
+      const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodedAddress}`;
+      window.open(googleMapsUrl, '_blank');
+  };
+
+
 
   const sendToWhatsApp = (values) => {
     const phoneNumber = "+23437305635"; // Your WhatsApp phone number
@@ -31,7 +41,9 @@ const Contsecone = () => {
         <p className='text-orange text-lg md:text-3xl lg:text-xl xl:text-2xl'>California</p>
         <p className='text-xs md:text-xl lg:text-base font-light'>11432 South Street</p>
         <p className='text-xs md:text-xl lg:text-base font-light'>alphaasvocatelaw@gmail.com</p>
-        <p className='text-xs md:text-xl lg:text-base font-semibold'>562-219-0089</p>
+        <Link href="tel:562-219-0089">
+                 <p className='text-tiny md:text-xl lg:text-xs xl:text-sm font-semibold'>562-219-0089</p>
+                 </Link>
        </div>
        </div>
        <div className='bg-white '>
@@ -132,24 +144,28 @@ const Contsecone = () => {
         <IoCallOutline  className='text-orange w-[12px] h-[12px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] '/>
         <div className='text-white '>
           <p className='text-orange text-xs md:text-xl lg:text-xs xl:text-sm'>Call Us On:</p>
-          <p className='text-xs md:text-xl lg:text-sm xl:text-sm '>562-219-0089</p>
+          <Link href="tel:562-219-0089">
+                 <p className='text-xs md:text-xl lg:text-sm xl:text-sm'>562-219-0089</p>
+                 </Link>
         </div>
         </div>
         <div className='flex items-center  flex-1 gap-2 md:gap-4  '>
         <MdOutlineMailOutline  className='text-orange w-[12px] h-[12px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] '/>
         <div className='text-white'>
           <p className='text-orange text-xs md:text-xl lg:text-sm xl:text-sm'>Email Us On:</p>
+          <Link href="mailto:Alphaadvocatelaw@gmail.com" >
           <p className='text-xs md:text-xl lg:text-sm xl:text-sm'>Alphaadvocatelaw@gmail.com</p>
+          </Link>
         </div>
         </div> 
        
         
        </div>
-       <div className='flex items-center gap-2 md:gap-4  bg-green flex-1 p-5'>
+       <div className='flex items-center gap-2 md:gap-4  bg-green flex-1 p-5 cursor-pointer' onClick={handleAddressClick} >
        <div>
         <MdLocationPin className='text-orange w-[12px] h-[12px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] ' />
        </div>
-       <div className='flex flex-col gap-1'>
+       <div className='flex flex-col gap-1' >
         <p className='text-orange text-sm md:text-xl lg:text-sm'>Main Office :</p>
         <p className='text-white text-xs md:text-lg lg:text-xs'>11432 South Street, Suite 373Cerritos, California 90703-6611</p>
        </div>

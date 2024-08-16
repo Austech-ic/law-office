@@ -19,6 +19,14 @@ const Footer = () => {
     }
 
 
+    const [address] = useState("11432 South Street, Suite 373Cerritos, California 90703-6611");
+
+  const handleAddressClick = () => {
+      const encodedAddress = encodeURIComponent(address);
+      const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodedAddress}`;
+      window.open(googleMapsUrl, '_blank');
+  };
+
     return (
         <div className='p-10 md:p-20 lg:p-20 xl:p-32 bg-green text-white'>
             <div className='flex flex-col lg:flex-row gap-4'>
@@ -35,32 +43,38 @@ const Footer = () => {
 
                         <p className='text-xs md:text-xl lg:text-sm font-light pt-5'>Attorney Advertising. This website is designed for general information only. The information presented at this site should not be construed to be formal legal advice nor the formation of a lawyer/client relationship. </p>
 
-                        <p className='text-xs md:text-xl lg:text-sm font-light pt-5'>See our profiles at <span className='text-orange underline'>Lawyers.com</span> and <span className='text-orange underline'>Martindale.com.</span></p>
+                        <p className='text-xs md:text-xl lg:text-sm font-light pt-5'>See our profiles at <span className='text-orange underline cursor-pointer'>Lawyers.com</span> and <span className='text-orange underline cursor-pointer'>Martindale.com.</span></p>
                     </div>
                 </div>
                 <div className='flex-1 grid lg:grid-cols-3 gap-4 md:gap-8 lg:gap-1 '>
-                    <div className=' flex-1 flex flex-col gap-2 md:gap-3 lg:gap-2'>
+                    <div className=' flex-1 flex flex-col gap-2 md:gap-3 lg:gap-2 '>
                         <p className='text-base md:text-2xl lg:text-base xl:text-lg font-bold'>Links</p>
-                        <Link href={`/`}>
-                        <p className='text-xs md:text-xl lg:text-sm  font-light'>Lawyers.com </p>
+                        <Link href="https://www.lawyers.com">
+                        <p className='text-xs md:text-xl lg:text-sm  font-light hover:text-orange'>Lawyers.com </p>
                         </Link>
-                        <Link href={`/`}>
-                        <p className='text-xs md:text-xl lg:text-sm  font-light'>Martindale.com</p>
+                        <Link href="https://www.martindale.com">
+                        <p className='text-xs md:text-xl lg:text-sm  font-light hover:text-orange'>Martindale.com</p>
                         </Link>
                         
                     </div>
 
                     <div className=' flex-1 flex flex-col gap-2 md:gap-3 lg:gap-2'>
                         <p className='text-sm md:text-2xl lg:text-base xl:text-lg font-bold' >Contact Us</p>
-                        <div className='flex items-center gap-2'>
+                        <Link href="tel:562-219-0089">
+                        <div className='flex items-center gap-2 hover:text-orange'>
                             <IoCallOutline className='w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px]' />
                             <p className='text-xs md:text-xl lg:text-sm  font-light'>562-219-0089.</p>
                         </div>
-                        <div className='flex items-center gap-2'>
+                        </Link>
+
+                        <Link href="mailto:Alphaadvocatelaw@gmail.com" >
+                        <div className='flex items-center gap-2  hover:text-orange'>
                             <MdOutlineMailOutline className='w-[10px] h-[10px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px]' />
                             <p className='text-xs md:text-xl lg:text-sm  font-light'>alphaadvocatelaw@gmail.com</p>
                         </div>
-                        <div>
+                        </Link>
+
+                        <div className='cursor-pointer hover:text-orange' onClick={handleAddressClick} > 
                             <p className='text-xs md:text-xl lg:text-sm font-light'>11432 South Street, Suite 373Cerritos, California 90703-6611</p>
                         </div>
                     </div>
@@ -145,11 +159,11 @@ const Footer = () => {
                             <li className='text-xs md:text-xl lg:text-sm' >Contact Us</li>
                         </div>
                     </Link>
-                    <Link href={`/`} className='hover:text-orange'>
-                        <div className='flex items-center gap-1'>
+                  
+                        <div className='flex items-center gap-1 hover:text-orange cursor-pointer'  onClick={handleAddressClick}>
                             <li className='text-xs md:text-xl lg:text-sm' >Map & Directions</li>
                         </div>
-                    </Link>
+                   
 
 
 

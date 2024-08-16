@@ -9,6 +9,7 @@ import { IoCallOutline } from "react-icons/io5";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
+import Link from 'next/link'
 
 
 const Contact = () => {
@@ -125,17 +126,21 @@ const Contact = () => {
             <div className=' flex flex-col  lg:flex-row justify-center lg:items-center gap-y-1 gap-x-6 md:gap-x-10'>
               <div className='flex items-center gap-2 flex-1'>
                 <IoCallOutline className='text-orange w-[13px] h-[13px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] ' />
+                <Link href="tel:562-219-0089">
                 <div>
                   <p className='text-orange text-xs md:text-sm lg:text-xs xl:text-sm'>Call Us On:</p>
                   <p className='text-xs md:text-xl lg:text-sm xl:text-sm '> 562-219-0089</p>
                 </div>
+                </Link>
               </div>
               <div className='flex items-center gap-2 flex-1'>
                 <MdOutlineMailOutline className='text-orange w-[13px] h-[13px] md:w-[20px] md:h-[20px] lg:w-[15px] lg:h-[15px] xl:w-[20px] xl:h-[20px] ' />
+                <Link href="mailto:alphaadvocatelaw@gmail.com" >
                 <div>
                   <p className='text-orange text-xs md:text-xl lg:text-sm xl:text-sm'>Email Us On:</p>
                   <p className='text-xs md:text-xl lg:text-sm xl:text-sm'>alphaadvocatelaw@gmail.com</p>
                 </div>
+                </Link>
               </div>
             </div>
           </div>
