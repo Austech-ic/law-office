@@ -2,8 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Loader from '../Loader/loader';
 import Header from '@/components/website/header/header'
-import Navbar from '@/components/website/navbar/navbar'
-import React from 'react'
+import Navbar from '@/components/website/navbar/navbar' 
 import styles from './restrain.module.css'
 import Pratsectionone from '@/components/pratarea/pratsectionone'
 import Footer from '@/components/website/footer/footer'
