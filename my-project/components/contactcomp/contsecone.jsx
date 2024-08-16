@@ -75,8 +75,8 @@ const Contsecone = () => {
       </div>
 
       {formSubmitted ? (
-        <div className='bg-white p-5 md:p-16 lg:p-20 text-center'>
-          <p className='text-green-600 text-lg md:text-2xl lg:text-xl'>Message sent successfully!</p>
+        <div className='bg-white p-5 md:p-16 lg:p-20 text-center h-[30vh] md:h-[50vh] flex justify-center items-center'>
+         <p className='text-green-600 text-sm md:text-3xl lg:text-lg xl:text-xl '>Message sent successfully!</p>
         </div>
       ) : (
         <div className='bg-white'>

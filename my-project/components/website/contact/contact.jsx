@@ -71,8 +71,8 @@ const Contact = () => {
 
 <div className='flex-1 bg-red-300'>
 {formSubmitted ? (
-        <div className='bg-white p-5 md:p-16 lg:p-20 flex justify-center items-center text-center h-[50vh] '>
-          <p className='text-green-600 text-lg md:text-2xl lg:text-xl text-orange'>Message sent successfully!</p>
+        <div className='bg-white flex justify-center items-center text-center h-[30vh] md:h-[50vh] '>
+          <p className='text-green-600 text-sm md:text-3xl lg:text-lg xl:text-xl text-orange'>Message sent successfully!</p>
         </div>
       ) : (
         <div className='bg-white '>
